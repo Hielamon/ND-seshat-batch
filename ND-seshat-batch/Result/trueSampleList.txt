@@ -8,6 +8,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000007.xml ------>50 \pm 15 1 \div 44------GT>50 \pm 151 \div 44
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000008.xml ------>{u}_{0} ( x )------GT>{u}_{0}(x)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000009.xml ------>143 \pm 1 91 \times 7------GT>143 \pm 191 \times 7
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000010.xml ------>( {( - 1 )}^{n} n )------GT>({(-1)}^{n}n)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000011.xml ------>4------GT>4
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000012.xml ------>n ( 1 )------GT>n(1)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000014.xml ------>\frac{a}{b}------GT>\frac{a}{b}
@@ -84,6 +85,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000099.xml ------>a = b + 1------GT>a=b+1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000100.xml ------>\frac{{( - 1 )}^{n}}{\sqrt{n}}------GT>\frac{{(-1)}^{n}}{\sqrt {n}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000101.xml ------>\gamma------GT>\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000102.xml ------>{k}_{e f f}------GT>{k}_{eff}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000103.xml ------>\mu ( l - I )------GT>\mu (l-I)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000104.xml ------>- 90 {a}_{6} {a}_{5} {a}_{4} + 1 35 {a}_{6}^{2} {a}_{3} = 0------GT>-90{a}_{6}{a}_{5}{a}_{4}+135{a}_{6}^{2}{a}_{3}=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000105.xml ------>- \int C d V------GT>-\int CdV
@@ -134,6 +136,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000169.xml ------>44------GT>44
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000170.xml ------>{a}_{1}^{L} {x}_{1} + {a}_{2}^{L} {x}_{2} = L------GT>{a}_{1}^{L}{x}_{1}+{a}_{2}^{L}{x}_{2}=L
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000171.xml ------>{( q + p {e}^{i t} )}^{n}------GT>{(q+p{e}^{it})}^{n}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000172.xml ------>{t}_{{T}_{x}}------GT>{t}_{{T}_{x}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000173.xml ------>2------GT>2
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000174.xml ------>\int ( q ) d p------GT>\int (q)dp
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000175.xml ------>1 = - 1------GT>1=-1
@@ -153,6 +156,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000192.xml ------>\frac{- 1}{n + 1}------GT>\frac{-1}{n+1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000193.xml ------>\sqrt{C - \lambda}------GT>\sqrt {C-\lambda }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000194.xml ------>A ( x ) = \frac{1}{x} + \frac{1}{{x}^{2}} + B ( x )------GT>A(x)=\frac{1}{x}+\frac{1}{{x}^{2}}+B(x)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000195.xml ------>{x}_{i} - {x}_{i + 1} + {x}_{i + 2}------GT>{x}_{i}-{x}_{i+1}+{x}_{i+2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000196.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000197.xml ------>- c g v------GT>-cgv
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000198.xml ------>A + b = 2------GT>A+b=2
@@ -197,6 +201,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000244.xml ------>2 + 5------GT>2+5
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000245.xml ------>{u}_{n} = {u}_{n - 1} + {u}_{n - 2}------GT>{u}_{n}={u}_{n-1}+{u}_{n-2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000247.xml ------>\frac{a}{4}------GT>\frac{a}{4}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000248.xml ------>{\log}_{a} a------GT>{\log }_{a}a
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000250.xml ------>1 + 11 + \frac{1}{1}------GT>1+11+\frac{1}{1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000251.xml ------>{k}^{n + 1} - 0------GT>{k}^{n+1}-0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000252.xml ------>\sqrt{1 + \sqrt{1 + {z}^{2}}}------GT>\sqrt {1+\sqrt {1+{z}^{2}}}
@@ -235,9 +240,11 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000293.xml ------>\frac{\pi - 3}{\sqrt{2}}------GT>\frac{\pi -3}{\sqrt {2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000294.xml ------>f ( {e}^{d} ) = {( f ( e ) )}^{d}------GT>f({e}^{d})={(f(e))}^{d}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000295.xml ------>{x}^{i + 2 j \times {k}^{3} - 2\frac{j}{i}}------GT>{x}^{i+2j \times {k}^{3}-2\frac{j}{i}}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000296.xml ------>{\log}_{a} x------GT>{\log }_{a}x
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000297.xml ------>( \mu + 1 )------GT>(\mu +1)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000298.xml ------>R------GT>R
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000299.xml ------>{\int}_{0}^{1} \sqrt{x} d x------GT>\int _{0}^{1}\sqrt {x}dx
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000300.xml ------>\frac{{x}^{4}}{{2}^{3}} - {( \frac{2}{x} )}^{- 4}------GT>\frac{{x}^{4}}{{2}^{3}}-{(\frac{2}{x})}^{-4}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000301.xml ------>x = 2 n \pi \pm \frac{\pi}{3}------GT>x=2n\pi  \pm \frac{\pi }{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000302.xml ------>{x}_{p} = x------GT>{x}_{p}=x
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000303.xml ------>- b------GT>-b
@@ -281,6 +288,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000353.xml ------>88 + 1 22 = 21 0------GT>88+122=210
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000354.xml ------>{( m )}^{l - f} ( - V )------GT>{(m)}^{l-f}(-V)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000355.xml ------>\frac{1}{a} F ( a x + b ) + C------GT>\frac{1}{a}F(ax+b)+C
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000356.xml ------>{\log}_{a} c------GT>{\log }_{a}c
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000358.xml ------>{a}_{1} + {a}_{2}------GT>{a}_{1}+{a}_{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000359.xml ------>\sqrt{3 + \sqrt{2}}------GT>\sqrt {3+\sqrt {2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000360.xml ------>\sqrt{z - k}------GT>\sqrt {z-k}
@@ -737,7 +745,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000922.xml ------>{m}_{2} = 1------GT>{m}_{2}=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000924.xml ------>{y}^{M}------GT>{y}^{M}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000926.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000927.xml ------>{\int}_{{a}^{\sigma}}^{e} L + w d q------GT>{\int }_{{a}^{\sigma }}^{e}L+wdq
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000928.xml ------>\sqrt{z}------GT>\sqrt {z}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000929.xml ------>{a}_{n} = {a}_{1} + ( n - 1 ) d------GT>{a}_{n}={a}_{1}+(n-1)d
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000930.xml ------>k = 2 39------GT>k=239
@@ -789,7 +796,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000992.xml ------>- F + G------GT>-F+G
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000993.xml ------>{x}^{3} + a x + b------GT>{x}^{3}+ax+b
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000995.xml ------>\frac{l}{\beta}------GT>\frac{l}{\beta }
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000996.xml ------>{a}_{n} {s}_{2} + {a}_{n - 1} {s}_{1} + 2 {a}_{n - 2} = 0------GT>{a}_{n}{s}_{2}+{a}_{n-1}{s}_{1}+2{a}_{n-2}=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000997.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000998.xml ------>\sigma------GT>\sigma 
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0000999.xml ------>| f ( \frac{p}{q} ) |------GT>|f(\frac{p}{q})|
@@ -991,7 +997,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001236.xml ------>v = {v}_{0} t - g {t}^{2}------GT>v={v}_{0}t-g{t}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001237.xml ------>\sqrt{1 - x}------GT>\sqrt {1-x}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001238.xml ------>{v}_{10}------GT>{v}_{10}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001239.xml ------>{\alpha}_{i n} = {x}_{i n} + i {p}_{i n}------GT>{\alpha }_{in}={x}_{in}+i{p}_{in}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001240.xml ------>{2}^{2} + {3}^{2} + {4}^{2}------GT>{2}^{2}+{3}^{2}+{4}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001243.xml ------>- x v------GT>-xv
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001244.xml ------>{x}^{5} + x + a------GT>{x}^{5}+x+a
@@ -1286,6 +1291,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001620.xml ------>\frac{\pi {r}^{2} h}{3}------GT>\frac{\pi {r}^{2}h}{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001621.xml ------>d ( t )------GT>d(t)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001622.xml ------>u ( b )------GT>u(b)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001623.xml ------>{p}_{i j}------GT>{p}_{ij}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001624.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001625.xml ------>2 \times 2------GT>2 \times 2
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001626.xml ------>\int {e}^{{x}^{2}} {x}^{3} d x------GT>\int {e}^{{x}^{2}}{x}^{3}dx
@@ -1318,6 +1324,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001661.xml ------>\log v------GT>\log v
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001664.xml ------>{2}^{{m}^{p}}------GT>{2}^{{m}^{p}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001665.xml ------>y + ( T )------GT>y+(T)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001666.xml ------>\frac{{V}_{t} s}{{V}_{m}}------GT>\frac{{V}_{t}s}{{V}_{m}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001667.xml ------>a + b + c + d + e------GT>a+b+c+d+e
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001668.xml ------>| a + i b | = \sqrt{{x}^{2} + {y}^{2}}------GT>|a+ib|=\sqrt {{x}^{2}+{y}^{2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001669.xml ------>\frac{1}{a} F ( a x + b ) + C------GT>\frac{1}{a}F(ax+b)+C
@@ -1357,6 +1364,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001711.xml ------>\frac{4}{3} \pi------GT>\frac{4}{3}\pi 
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001712.xml ------>\sqrt{S}------GT>\sqrt {S}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001713.xml ------>13 + \pi {r}^{2}------GT>13+\pi {r}^{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001714.xml ------>{\phi}_{j} ( k )------GT>{\phi }_{j}(k)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001715.xml ------>g u------GT>gu
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001716.xml ------>3 {y}^{2} + 3 y + 1------GT>3{y}^{2}+3y+1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001717.xml ------>f = \frac{\sqrt{5}}{R C}------GT>f=\frac{\sqrt {5}}{RC}
@@ -1364,6 +1372,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001720.xml ------>{i}^{2} = - 1------GT>{i}^{2}=-1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001721.xml ------>523 + 487------GT>523+487
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001722.xml ------>( 2 )------GT>(2)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001725.xml ------>{x}_{i} - {x}_{i + 1} + {x}_{i + 2}------GT>{x}_{i}-{x}_{i+1}+{x}_{i+2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001726.xml ------>1 + {G}^{g}------GT>1+{G}^{g}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001727.xml ------>\int ( {2}^{x} - 3 {e}^{x} ) d x------GT>\int ({2}^{x}-3{e}^{x})dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001728.xml ------>{y}_{i} = a {x}_{i} + b------GT>{y}_{i}=a{x}_{i}+b
@@ -1495,6 +1504,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001889.xml ------>\int d x = x + C------GT>\int dx=x+C
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001892.xml ------>G------GT>G
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001893.xml ------>\int ( {2}^{x} - 3 {e}^{x} ) d x------GT>\int ({2}^{x}-3{e}^{x})dx
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001894.xml ------>{( a )}^{- 1} - 1------GT>{(a)}^{-1}-1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001895.xml ------>{N}^{H} m i------GT>{N}^{H}mi
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001896.xml ------>\frac{\pi {r}^{2} h}{3}------GT>\frac{\pi {r}^{2}h}{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0001897.xml ------>C------GT>C
@@ -1689,6 +1699,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002127.xml ------>\sqrt{1 - {z}^{2}}------GT>\sqrt {1-{z}^{2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002128.xml ------>9------GT>9
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002129.xml ------>\frac{5}{x + 1} + \frac{5}{{x}^{2} + x}------GT>\frac{5}{x+1}+\frac{5}{{x}^{2}+x}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002130.xml ------>{\int}_{a}^{b} f ( x ) d x = F ( b ) - F ( a )------GT>\int _{a}^{b}f(x)dx=F(b)-F(a)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002131.xml ------>\frac{z}{1} = \frac{x}{y}------GT>\frac{z}{1}=\frac{x}{y}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002132.xml ------>{x}_{1} + {x}_{2} = {x}_{3}------GT>{x}_{1}+{x}_{2}={x}_{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002133.xml ------>7 \times 5 = 7 + 7 + 7 + 7 + 7 = 35------GT>7 \times 5=7+7+7+7+7=35
@@ -1724,13 +1735,14 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002169.xml ------>{\beta}_{m i n}------GT>{\beta }_{min}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002170.xml ------>{k}_{1} = {k}_{t} = k------GT>{k}_{1}={k}_{t}=k
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002171.xml ------>I------GT>I
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002173.xml ------>I y------GT>Iy
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002172.xml ------>{a}^{2} - 2a b = {( a - b )}^{2} - {b}^{2}------GT>{a}^{2}-2ab={(a-b)}^{2}-{b}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002177.xml ------>a + b = b + a------GT>a+b=b+a
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002178.xml ------>7------GT>7
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002179.xml ------>{( c + d )}^{2} = 8------GT>{(c+d)}^{2}=8
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002180.xml ------>{a}^{2} + {b}^{2} = ( a + b i ) ( a - b i )------GT>{a}^{2}+{b}^{2}=(a+bi)(a-bi)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002182.xml ------>\sqrt{{b}^{2} - 4 a c}------GT>\sqrt {{b}^{2}-4ac}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002183.xml ------>a + \frac{\sqrt{b + c}}{2}------GT>a+\frac{\sqrt {b+c}}{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002184.xml ------>{a}_{f}------GT>{a}_{f}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002185.xml ------>y = b + i e------GT>y=b+ie
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002186.xml ------>v ( x )------GT>v(x)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002187.xml ------>j------GT>j
@@ -1764,6 +1776,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002220.xml ------>{10}^{7}------GT>{10}^{7}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002221.xml ------>{v}_{1} {v}_{2} {v}_{3}------GT>{v}_{1}{v}_{2}{v}_{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002225.xml ------>q ( t )------GT>q(t)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002227.xml ------>{\int}_{a}^{b} f ( x ) d x = F ( b ) - F ( a )------GT>\int _{a}^{b}f(x)dx=F(b)-F(a)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002228.xml ------>x + k------GT>x+k
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002229.xml ------>{( \sqrt{5} )}^{3} + {( \sqrt{2} )}^{3}------GT>{(\sqrt {5})}^{3}+{(\sqrt {2})}^{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002230.xml ------>12 45 \times 26 - 2 79 \times 1 16 = 6------GT>1245 \times 26-279 \times 116=6
@@ -1827,6 +1840,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002301.xml ------>\frac{f ( x )}{g ( x )} = \frac{f ( x ) - f ( a )}{x - a} \frac{x - a}{g ( x ) - g ( a )}------GT>\frac{f(x)}{g(x)}=\frac{f(x)-f(a)}{x-a}\frac{x-a}{g(x)-g(a)}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002302.xml ------>a b c d------GT>abcd
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002304.xml ------>( {E}_{0} )------GT>({E}_{0})
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002305.xml ------>{\int}_{a}^{b} f ( x ) d x = F ( b ) - F ( a )------GT>\int _{a}^{b}f(x)dx=F(b)-F(a)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002306.xml ------>{x}_{0} = 1------GT>{x}_{0}=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002307.xml ------>P------GT>P
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002308.xml ------>{\alpha}_{m i n}------GT>{\alpha }_{min}
@@ -1835,6 +1849,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002311.xml ------>\frac{1}{2} h------GT>\frac{1}{2}h
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002312.xml ------>- u------GT>-u
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002313.xml ------>- T - T - B------GT>-T-T-B
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002314.xml ------>{\gamma}_{y} ( 0 ) = {y}_{1}------GT>{\gamma }_{y}(0)={y}_{1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002315.xml ------>{\sqrt{V + q}}^{N}------GT>{\sqrt {V+q}}^{N}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002316.xml ------>\frac{{x}_{1}}{\frac{{x}_{2}}{\frac{{x}_{3}}{{x}_{4}}}}------GT>\frac{{x}_{1}}{\frac{{x}_{2}}{\frac{{x}_{3}}{{x}_{4}}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002318.xml ------>{x}^{2} - x - 1 = 0------GT>{x}^{2}-x-1=0
@@ -1939,7 +1954,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002457.xml ------>{y}^{2} = x ( x - {a}^{p} ) ( x + {b}^{p} )------GT>{y}^{2}=x(x-{a}^{p})(x+{b}^{p})
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002458.xml ------>{j}_{k}------GT>{j}_{k}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002459.xml ------>\frac{1}{{r}^{2}} = \frac{1}{{( R - m )}^{2}} + \frac{1}{{( R + m )}^{2}}------GT>\frac{1}{{r}^{2}}=\frac{1}{{(R-m)}^{2}}+\frac{1}{{(R+m)}^{2}}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002460.xml ------>{\int}_{0}^{1} {\int}_{0}^{1} \frac{1}{1 + {x}^{2} {y}^{2}} d x d y------GT>{\int }_{0}^{1}{\int }_{0}^{1}\frac{1}{1+{x}^{2}{y}^{2}}dxdy
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002462.xml ------>f ( y )------GT>f(y)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002464.xml ------>{e}^{{x}^{- {( \frac{x}{2} )}^{n}}}------GT>{e}^{{x}^{-{(\frac{x}{2})}^{n}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002465.xml ------>{B}_{n} ( 1 - x ) = {( - 1 )}^{n} {B}_{n} ( x )------GT>{B}_{n}(1-x)={(-1)}^{n}{B}_{n}(x)
@@ -1990,7 +2004,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002517.xml ------>2 \times 2 - 2 \times 1 - 2 \times 1 = 2 \times 1 - 1 \times 1 - 1 \times 1------GT>2 \times 2-2 \times 1-2 \times 1=2 \times 1-1 \times 1-1 \times 1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002518.xml ------>i------GT>i
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002519.xml ------>10 7 \pm ( ( 11 5 \times 46 ) + 69 ) \times ( 29 \times 13 2 )------GT>107 \pm ((115 \times 46)+69) \times (29 \times 132)
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002520.xml ------>a {X}^{2} - b X - a------GT>a{X}^{2}-bX-a
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002521.xml ------>{x}^{3} + a x + b------GT>{x}^{3}+ax+b
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002522.xml ------>{\int}_{0}^{1} \sqrt{x} d x------GT>\int _{0}^{1}\sqrt {x}dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002523.xml ------>{y}^{- 1}------GT>{y}^{-1}
@@ -2061,6 +2074,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002607.xml ------>1 \times 7 \times 13 \times 19 = 1 72 9------GT>1 \times 7 \times 13 \times 19=1729
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002608.xml ------>{10}^{- 15} m------GT>{10}^{-15}m
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002610.xml ------>{\int}_{0}^{1} {\int}_{0}^{1} {x}^{2} {y}^{2} d x d y------GT>\int _{0}^{1}\int _{0}^{1}{x}^{2}{y}^{2}dxdy
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002611.xml ------>T z------GT>Tz
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002613.xml ------>16 6 - 1 47 - 56 = 75------GT>166-147-56=75
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002614.xml ------>{\mu}^{u}------GT>{\mu }^{u}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002615.xml ------>i = f ( u )------GT>i=f(u)
@@ -2250,7 +2264,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002835.xml ------>a + b + c = 0------GT>a+b+c=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002836.xml ------>( {x}^{3} - {x}^{2} - x ) ( 2 x - 7 )------GT>({x}^{3}-{x}^{2}-x)(2x-7)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002837.xml ------>| \frac{a {x}_{0} + b {y}_{0} + c}{\sqrt{{a}^{2} + {b}^{2}}} |------GT>|\frac{a{x}_{0}+b{y}_{0}+c}{\sqrt {{a}^{2}+{b}^{2}}}|
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002838.xml ------>2 n {a}_{n} {a}_{n - 2} - ( n - 1 ) {a}_{n - 1}^{2} = 0------GT>2n{a}_{n}{a}_{n-2}-(n-1){a}_{n-1}^{2}=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002839.xml ------>n ( p )------GT>n(p)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002840.xml ------>x------GT>x
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0002841.xml ------>\frac{A}{S}------GT>\frac{A}{S}
@@ -2443,6 +2456,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003075.xml ------>( {x}^{3} - {x}^{2} - x ) ( 2 x - 7 )------GT>({x}^{3}-{x}^{2}-x)(2x-7)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003077.xml ------>\sqrt{P}------GT>\sqrt {P}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003078.xml ------>{z}_{1}^{2} + {1}^{z} - {z}_{2}^{2} + {2}^{z}------GT>{z}_{1}^{2}+{1}^{z}-{z}_{2}^{2}+{2}^{z}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003079.xml ------>{\int}_{a}^{b} z + y d y------GT>\int _{a}^{b}z+ydy
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003080.xml ------>t = \frac{2 {v}_{0}}{g}------GT>t=\frac{2{v}_{0}}{g}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003081.xml ------>\alpha = 3------GT>\alpha =3
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003082.xml ------>\frac{\frac{v}{R} {v}_{d}}{R}------GT>\frac{\frac{v}{R}{v}_{d}}{R}
@@ -2493,6 +2507,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003136.xml ------>{B}^{L} + o------GT>{B}^{L}+o
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003137.xml ------>I------GT>I
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003138.xml ------>\frac{\beta + \gamma}{\theta}------GT>\frac{\beta +\gamma }{\theta }
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003139.xml ------>{t}_{{L}_{k}}------GT>{t}_{{L}_{k}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003140.xml ------>{b}_{1} = 1------GT>{b}_{1}=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003141.xml ------>- \sigma------GT>-\sigma 
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003142.xml ------>{x}_{1} = 0------GT>{x}_{1}=0
@@ -2512,6 +2527,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003159.xml ------>d {x}^{\mu}------GT>d{x}^{\mu }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003160.xml ------>{e}^{\pi i} + 1 = 0------GT>{e}^{\pi i}+1=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003161.xml ------>v ( 1 ) = v ( - 1 ) = 0------GT>v(1)=v(-1)=0
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003163.xml ------>{e}_{{f}_{{g}_{h}}}------GT>{e}_{{f}_{{g}_{h}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003166.xml ------>{\log}_{2} 8 + {\log}_{3} 9 + {\log}_{4} 16------GT>{\log }_{2}8+{\log }_{3}9+{\log }_{4}16
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003170.xml ------>\frac{i - t}{E}------GT>\frac{i-t}{E}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003171.xml ------>{( E )}^{h - j} \phi------GT>{(E)}^{h-j}\phi 
@@ -2626,6 +2642,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003308.xml ------>{10}^{200}------GT>{10}^{200}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003310.xml ------>\int g h d v------GT>\int ghdv
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003311.xml ------>\frac{d}{d x} f ( x ) = f ( x ) ( 1 - f ( x ) )------GT>\frac{d}{dx}f(x)=f(x)(1-f(x))
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003313.xml ------>{\int}_{a}^{b} 2d x------GT>{\int }_{a}^{b}2dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003314.xml ------>a n {x}^{n - 1}------GT>an{x}^{n-1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003315.xml ------>f ( x ) = f ( y )------GT>f(x)=f(y)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003318.xml ------>\frac{1 + 2}{3}------GT>\frac{1+2}{3}
@@ -2687,6 +2704,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003396.xml ------>\frac{R \beta}{u}------GT>\frac{R\beta }{u}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003397.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003398.xml ------>{x}_{x}^{x} + {y}_{y}^{y} + {z}_{z}^{z} - x - y - z------GT>{x}_{x}^{x}+{y}_{y}^{y}+{z}_{z}^{z}-x-y-z
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003399.xml ------>{z}_{j}------GT>{z}_{j}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003400.xml ------>i------GT>i
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003401.xml ------>{\int}_{a}^{b} 2 d x------GT>{\int }_{a}^{b}2dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003402.xml ------>( y - 3 ) ( y + 3 ) + y ( y + 3 ) = 0------GT>(y-3)(y+3)+y(y+3)=0
@@ -2768,6 +2786,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003489.xml ------>u ( 0 ) = {u}_{0}------GT>u(0)={u}_{0}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003490.xml ------>e ( t )------GT>e(t)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003491.xml ------>{z}_{1}^{2} + {1}^{z} - {z}_{2}^{2} + {2}^{z}------GT>{z}_{1}^{2}+{1}^{z}-{z}_{2}^{2}+{2}^{z}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003492.xml ------>{u}_{\beta} {u}^{\beta} = {c}^{2}------GT>{u}_{\beta }{u}^{\beta }={c}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003493.xml ------>y - {\phi}_{i j} ( x )------GT>y-{\phi }_{ij}(x)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003495.xml ------>a = \frac{y}{x}------GT>a=\frac{y}{x}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003496.xml ------>{a}^{{b}^{{c}^{d}}}------GT>{a}^{{b}^{{c}^{d}}}
@@ -3062,7 +3081,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003863.xml ------>r \sqrt{\pi}------GT>r\sqrt {\pi }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003864.xml ------>( A + w )------GT>(A+w)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003866.xml ------>2\pi r h------GT>2\pi rh
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003868.xml ------>\sqrt{a} = {2}^{- n} \sqrt{{4}^{n} a}------GT>\sqrt {a}={2}^{-n}\sqrt {{4}^{n}a}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003871.xml ------>{\int}_{0}^{\infty} \sqrt{x} {e}^{- x} d x = \frac{1}{2} \sqrt{\pi}------GT>\int _{0}^{\infty }\sqrt {x}{e}^{-x}dx=\frac{1}{2}\sqrt {\pi }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003872.xml ------>61 k------GT>61k
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003873.xml ------>A t + \sqrt{o}------GT>At+\sqrt {o}
@@ -3094,7 +3112,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003902.xml ------>c = 10------GT>c=10
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003903.xml ------>\sqrt{14}------GT>\sqrt {14}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003904.xml ------>{C}_{n + 1} ( E ) = {C}_{1} ( {C}_{n} ( E ) )------GT>{C}_{n+1}(E)={C}_{1}({C}_{n}(E))
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003905.xml ------>{u}_{n + 1} = \sqrt{{u}_{n} {v}_{n}}------GT>{u}_{n+1}=\sqrt {{u}_{n}{v}_{n}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003906.xml ------>x = \frac{7 \times 8}{5}------GT>x=\frac{7 \times 8}{5}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003907.xml ------>\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}------GT>\sqrt {1+\sqrt {2+\sqrt {3+\sqrt {4}}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003910.xml ------>\frac{\sqrt{a}}{\sqrt{z}}------GT>\frac{\sqrt {a}}{\sqrt {z}}
@@ -3145,6 +3162,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003965.xml ------>{a}^{x} + {b}^{x} + \frac{c}{2}------GT>{a}^{x}+{b}^{x}+\frac{c}{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003966.xml ------>{x}^{i + 2 j \times {k}^{3} - 2\frac{j}{i}}------GT>{x}^{i+2j \times {k}^{3}-2\frac{j}{i}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003967.xml ------>{y}^{( k )}------GT>{y}^{(k)}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003968.xml ------>\frac{{x}^{4}}{{2}^{3}} - {( \frac{2}{x} )}^{- 4}------GT>\frac{{x}^{4}}{{2}^{3}}-{(\frac{2}{x})}^{-4}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003969.xml ------>+ 7 \times {9}^{5} + 7 \times {9}^{4} + 7 \times {9}^{3} + 7 \times {9}^{2} + 7 \times 9------GT>+7 \times {9}^{5}+7 \times {9}^{4}+7 \times {9}^{3}+7 \times {9}^{2}+7 \times 9
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003970.xml ------>- w ( F )------GT>-w(F)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0003971.xml ------>{z}_{n + 1} = p ( {z}_{n} ) = {( {z}_{n} )}^{2}------GT>{z}_{n+1}=p({z}_{n})={({z}_{n})}^{2}
@@ -3395,6 +3413,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004274.xml ------>{( 12 - x )}^{2}------GT>{(12-x)}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004275.xml ------>f + L V------GT>f+LV
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004276.xml ------>t ( {p}^{( ( 7 ) )} )------GT>t({p}^{((7))})
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004277.xml ------>y ( x + k p ) = {( x + k p )}^{2} - n------GT>y(x+kp)={(x+kp)}^{2}-n
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004278.xml ------>{Y}_{d}------GT>{Y}_{d}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004280.xml ------>z - 1------GT>z-1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004281.xml ------>\beta ( s )------GT>\beta (s)
@@ -3407,6 +3426,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004289.xml ------>\sqrt{\sqrt{2}}------GT>\sqrt {\sqrt {2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004290.xml ------>a ( l )------GT>a(l)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004292.xml ------>( n - 1 )------GT>(n-1)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004293.xml ------>q ( {t}_{f} ) = {q}_{f}------GT>q({t}_{f})={q}_{f}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004294.xml ------>\sigma ( {A}_{i} )------GT>\sigma ({A}_{i})
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004296.xml ------>{a}^{2} + {b}^{2} = ( a + b i ) ( a - b i )------GT>{a}^{2}+{b}^{2}=(a+bi)(a-bi)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004299.xml ------>4 {X}^{3} - 7 {X}^{2} + 3 X - 5 = ( X - 2 ) ( 4 {X}^{2} + X + 5 ) + 5------GT>4{X}^{3}-7{X}^{2}+3X-5=(X-2)(4{X}^{2}+X+5)+5
@@ -3629,7 +3649,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004566.xml ------>{a}^{n - 1}------GT>{a}^{n-1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004567.xml ------>( 15 8 \times 98 ) - 16 2 = 1 53 22------GT>(158 \times 98)-162=15322
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004568.xml ------>{\phi}^{3} + 3 {\phi}^{2} + 1 8 \phi + 5 + 12------GT>{\phi }^{3}+3{\phi }^{2}+18\phi +5+12
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004569.xml ------>{a}_{n} {s}_{3} + {a}_{n - 1} {s}_{2} + {a}_{n - 2} {s}_{1} + 3 {a}_{n - 3} = 0------GT>{a}_{n}{s}_{3}+{a}_{n-1}{s}_{2}+{a}_{n-2}{s}_{1}+3{a}_{n-3}=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004570.xml ------>{Y}_{1}^{( n )}------GT>{Y}_{1}^{(n)}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004571.xml ------>{\log}_{2} 8 = 3------GT>{\log }_{2}8=3
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004573.xml ------>79 \pm ( 151 \times ( 15 3 + 12 9 ) ) - ( 46 + 30 )------GT>79 \pm (151 \times (153+129))-(46+30)
@@ -3753,11 +3772,11 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004727.xml ------>\frac{1}{{r}^{2}} = \frac{1}{{( R - m )}^{2}} + \frac{1}{{( R + m )}^{2}}------GT>\frac{1}{{r}^{2}}=\frac{1}{{(R-m)}^{2}}+\frac{1}{{(R+m)}^{2}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004728.xml ------>b + {\pi}^{X}------GT>b+{\pi }^{X}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004729.xml ------>{( G )}^{t}------GT>{(G)}^{t}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004730.xml ------>\int ( {2}^{x} - 3 {e}^{x} ) d x------GT>\int ({2}^{x}-3{e}^{x})dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004731.xml ------>f------GT>f
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004732.xml ------>{a}_{3} = 32------GT>{a}_{3}=32
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004733.xml ------>\frac{2}{\frac{1}{x} + \frac{1}{y}}------GT>\frac{2}{\frac{1}{x}+\frac{1}{y}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004738.xml ------>{T}_{n} ( {T}_{m} ( X ) ) = {T}_{m n} ( X )------GT>{T}_{n}({T}_{m}(X))={T}_{mn}(X)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004739.xml ------>{a}_{i} = {a}_{i + n}------GT>{a}_{i}={a}_{i+n}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004740.xml ------>\alpha = \sqrt{2}------GT>\alpha =\sqrt {2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004741.xml ------>( {x}^{3} - {x}^{2} - x ) ( 2 x - 7 )------GT>({x}^{3}-{x}^{2}-x)(2x-7)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004742.xml ------>a = r \sqrt{2 - \sqrt{3}}------GT>a=r\sqrt {2-\sqrt {3}}
@@ -3849,7 +3868,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004850.xml ------>g------GT>g
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004851.xml ------>{a}^{2} + {b}^{2} = ( a + b i ) ( a - b i )------GT>{a}^{2}+{b}^{2}=(a+bi)(a-bi)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004852.xml ------>{a}^{m} \times {a}^{n} = {a}^{m + n}------GT>{a}^{m} \times {a}^{n}={a}^{m+n}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004854.xml ------>B = ( 2 q + 1 ) f ( {x}_{n} ) - {( 1 + q )}^{2} f ( {x}_{n - 1} ) + {q}^{2} f ( {x}_{n - 2} )------GT>B=(2q+1)f({x}_{n})-{(1+q)}^{2}f({x}_{n-1})+{q}^{2}f({x}_{n-2})
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004855.xml ------>0 + 0 = 0------GT>0+0=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004856.xml ------>{\int}_{0}^{1} {\int}_{0}^{1} {x}^{2} {y}^{2} d x d y------GT>\int _{0}^{1}\int _{0}^{1}{x}^{2}{y}^{2}dxdy
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0004857.xml ------>T = {T}_{0} + \Delta T------GT>T={T}_{0}+\Delta T
@@ -4067,7 +4085,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005124.xml ------>{\int}_{0}^{1} {\int}_{0}^{1} {x}^{2} {y}^{2} d x d y------GT>\int _{0}^{1}\int _{0}^{1}{x}^{2}{y}^{2}dxdy
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005125.xml ------>u ( c ) = \frac{1}{b - a} {\int}_{a}^{b} u ( t ) d t------GT>u(c)=\frac{1}{b-a}{\int }_{a}^{b}u(t)dt
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005128.xml ------>a = \frac{{v}^{2}}{r}------GT>a=\frac{{v}^{2}}{r}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005129.xml ------>{\log}_{b} ( b ) = 1------GT>{\log }_{b}(b)=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005130.xml ------>{V}_{r} = {V}_{i}------GT>{V}_{r}={V}_{i}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005133.xml ------>{y}^{4} + y + 1 = 0------GT>{y}^{4}+y+1=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005134.xml ------>- i------GT>-i
@@ -4095,7 +4112,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005159.xml ------>- \int t d l------GT>-\int tdl
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005160.xml ------>i------GT>i
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005161.xml ------>30 \times 29 {x}^{28}------GT>30 \times 29{x}^{28}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005162.xml ------>{\log}_{c} ( a - b ) = {\log}_{c} ( {c}^{( {\log}_{c} a - {\log}_{c} b )} - 1 ) + {\log}_{c} b------GT>{\log }_{c}(a-b)={\log }_{c}({c}^{({\log }_{c}a-{\log }_{c}b)}-1)+{\log }_{c}b
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005163.xml ------>{y}^{4} + y + 1 = 0------GT>{y}^{4}+y+1=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005164.xml ------>\sqrt{1 + \sqrt{1 + {z}^{2}}}------GT>\sqrt {1+\sqrt {1+{z}^{2}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005165.xml ------>f ( t )------GT>f(t)
@@ -4125,6 +4141,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005196.xml ------>{X}_{n + k}------GT>{X}_{n+k}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005197.xml ------>n = b - a + 1------GT>n=b-a+1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005198.xml ------>r ( \theta ) = a------GT>r(\theta )=a
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005200.xml ------>( {( - 1 )}^{n} n + n )------GT>({(-1)}^{n}n+n)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005201.xml ------>Y------GT>Y
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005203.xml ------>( n \times n )------GT>(n \times n)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005204.xml ------>( \frac{1}{{m}^{2}} - \frac{3 m}{n} + \frac{2}{m n} )------GT>(\frac{1}{{m}^{2}}-\frac{3m}{n}+\frac{2}{mn})
@@ -4142,6 +4159,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005219.xml ------>b------GT>b
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005222.xml ------>a + b + c + d + e------GT>a+b+c+d+e
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005224.xml ------>{\gamma}^{0} = \beta------GT>{\gamma }^{0}=\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005225.xml ------>{e}_{{f}_{{g}_{h}}}------GT>{e}_{{f}_{{g}_{h}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005226.xml ------>( G - V )------GT>(G-V)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005228.xml ------>- H------GT>-H
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005229.xml ------>y d x + x d y = 0------GT>ydx+xdy=0
@@ -4352,6 +4370,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005501.xml ------>( y - 3 ) ( y + 3 ) + y ( y + 3 ) = 0------GT>(y-3)(y+3)+y(y+3)=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005503.xml ------>\frac{1}{a} F ( a x + b ) + C------GT>\frac{1}{a}F(ax+b)+C
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005504.xml ------>{y}^{2} \pm \sqrt{u - p} ( y - \frac{q}{2( u - p )} ) + \frac{u}{2} = 0------GT>{y}^{2} \pm \sqrt {u-p}(y-\frac{q}{2(u-p)})+\frac{u}{2}=0
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005505.xml ------>d {g}_{\beta} = d {g}_{\alpha}------GT>d{g}_{\beta }=d{g}_{\alpha }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005506.xml ------>{a}_{0} = x------GT>{a}_{0}=x
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005507.xml ------>{a}_{n} = {a}_{1} + ( n - 1 ) d------GT>{a}_{n}={a}_{1}+(n-1)d
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005508.xml ------>\frac{4}{3} \pi {r}^{3}------GT>\frac{4}{3}\pi {r}^{3}
@@ -4430,11 +4449,11 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005596.xml ------>\frac{3\sqrt{3}}{2} {s}^{2}------GT>\frac{3\sqrt {3}}{2}{s}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005599.xml ------>{b}_{1} = {b}_{2} = v r a i------GT>{b}_{1}={b}_{2}=vrai
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005600.xml ------>- 3------GT>-3
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005601.xml ------>{p}_{e}^{2} = {( {p}_{1} - {p}_{2} )}^{2} + 2 {m}_{e} c ( {p}_{1} - {p}_{2} )------GT>{p}_{e}^{2}={({p}_{1}-{p}_{2})}^{2}+2{m}_{e}c({p}_{1}-{p}_{2})
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005602.xml ------>- {G}_{m}------GT>-{G}_{m}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005603.xml ------>\frac{4}{3} \pi {r}^{3}------GT>\frac{4}{3}\pi {r}^{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005604.xml ------>p------GT>p
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005605.xml ------>1 + 2------GT>1+2
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005606.xml ------>n - 2 = 3------GT>n-2=3
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005608.xml ------>{\int}_{0}^{1} {\int}_{0}^{1} {x}^{2} {y}^{2} d x d y------GT>\int _{0}^{1}\int _{0}^{1}{x}^{2}{y}^{2}dxdy
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005609.xml ------>{t}_{i k}------GT>{t}_{ik}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005610.xml ------>j------GT>j
@@ -4442,6 +4461,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005612.xml ------>{w}_{n + 1} = x {e}^{- {w}_{n}}------GT>{w}_{n+1}=x{e}^{-{w}_{n}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005613.xml ------>{y}^{2} \pm \sqrt{u - p} ( y - \frac{q}{2( u - p )} ) + \frac{u}{2} = 0------GT>{y}^{2} \pm \sqrt {u-p}(y-\frac{q}{2(u-p)})+\frac{u}{2}=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005615.xml ------>{u}_{2} = {e}_{1} - 2 {e}_{2}------GT>{u}_{2}={e}_{1}-2{e}_{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005617.xml ------>{x}^{7} + 7 {x}^{6} d X + 21 {x}^{5} d {X}^{2} + 35 {x}^{4} d {X}^{3}------GT>{x}^{7}+7{x}^{6}dX+21{x}^{5}d{X}^{2}+35{x}^{4}d{X}^{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005619.xml ------>t S------GT>tS
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005620.xml ------>x - 2 = 5------GT>x-2=5
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005621.xml ------>n------GT>n
@@ -4565,6 +4585,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005779.xml ------>m------GT>m
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005780.xml ------>X------GT>X
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005781.xml ------>g ( x + 4 ) = g ( x )------GT>g(x+4)=g(x)
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005783.xml ------>{x}_{i} - {x}_{i + 1} + {x}_{i + 2}------GT>{x}_{i}-{x}_{i+1}+{x}_{i+2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005784.xml ------>\frac{3}{5} h------GT>\frac{3}{5}h
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005786.xml ------>1------GT>1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005787.xml ------>13 + \pi {r}^{2}------GT>13+\pi {r}^{2}
@@ -4598,7 +4619,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005821.xml ------>{X}^{4} - 1 = ( X + i ) ( X - i ) ( X - 1 ) ( X + 1 )------GT>{X}^{4}-1=(X+i)(X-i)(X-1)(X+1)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005822.xml ------>\frac{9}{4}------GT>\frac{9}{4}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005823.xml ------>\int ( {2}^{x} - 3 {e}^{x} ) d x------GT>\int ({2}^{x}-3{e}^{x})dx
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005824.xml ------>e - {\sqrt{E}}^{\mu}------GT>e-{\sqrt {E}}^{\mu }
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005825.xml ------>{x}^{3} - 3 x + 1------GT>{x}^{3}-3x+1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005826.xml ------>\sqrt{1 + \sqrt{2 + \sqrt{3 + \sqrt{4}}}}------GT>\sqrt {1+\sqrt {2+\sqrt {3+\sqrt {4}}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005827.xml ------>{f}_{1} + {f}_{2}------GT>{f}_{1}+{f}_{2}
@@ -4708,7 +4728,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005948.xml ------>4c = 2 \sqrt{2} d------GT>4c=2\sqrt {2}d
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005949.xml ------>\frac{1 + \sqrt{5}}{2}------GT>\frac{1+\sqrt {5}}{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005950.xml ------>{q}_{i} {p}_{j}------GT>{q}_{i}{p}_{j}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005951.xml ------>\beta r------GT>\beta r
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005952.xml ------>Y = 0------GT>Y=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005953.xml ------>{b}_{15}------GT>{b}_{15}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0005954.xml ------>3 \times ( 4 \times x + 1 ) \times ( 5 \times x \times y - 2 ) \times z------GT>3 \times (4 \times x+1) \times (5 \times x \times y-2) \times z
@@ -4753,6 +4772,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006005.xml ------>1 + 1 = 2------GT>1+1=2
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006006.xml ------>\sqrt{a} = {2}^{- n} \sqrt{{4}^{n} a}------GT>\sqrt {a}={2}^{-n}\sqrt {{4}^{n}a}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006008.xml ------>{x}_{1} \times {x}_{2} \times {x}_{3} \times {x}_{4} = X------GT>{x}_{1} \times {x}_{2} \times {x}_{3} \times {x}_{4}=X
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006010.xml ------>{\int}_{a}^{a} f ( x ) d x = 0------GT>\int _{a}^{a}f(x)dx=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006011.xml ------>2 \times 3------GT>2 \times 3
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006013.xml ------>{F}_{n} = {F}_{n - 1} + {F}_{n - 2}------GT>{F}_{n}={F}_{n-1}+{F}_{n-2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006014.xml ------>- N V------GT>-NV
@@ -4768,6 +4788,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006027.xml ------>- Y - \frac{M}{i}------GT>-Y-\frac{M}{i}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006028.xml ------>\alpha b + \beta = 0------GT>\alpha b+\beta =0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006029.xml ------>\int d x------GT>\int dx
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006030.xml ------>{\int}_{a}^{b} f ( x ) d x------GT>\int _{a}^{b}f(x)dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006031.xml ------>\frac{P - a}{0}------GT>\frac{P-a}{0}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006032.xml ------>5 + 9 + 5 = 19------GT>5+9+5=19
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006033.xml ------>\sqrt{{b}^{2} - 4 a c}------GT>\sqrt {{b}^{2}-4ac}
@@ -4903,6 +4924,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006192.xml ------>{x}^{\frac{T}{{g}_{E E}}}------GT>{x}^{\frac{T}{{g}_{EE}}}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006193.xml ------>{m}_{1} = 1------GT>{m}_{1}=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006194.xml ------>G------GT>G
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006195.xml ------>{\int}_{a}^{b} f ( x ) d x = F ( b ) - F ( a )------GT>\int _{a}^{b}f(x)dx=F(b)-F(a)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006196.xml ------>( \frac{1}{{m}^{2}} - \frac{3 m}{n} + \frac{2}{m n} )------GT>(\frac{1}{{m}^{2}}-\frac{3m}{n}+\frac{2}{mn})
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006197.xml ------>\int {e}^{{x}^{2}} {x}^{3} d x------GT>\int {e}^{{x}^{2}}{x}^{3}dx
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006198.xml ------>j------GT>j
@@ -5009,6 +5031,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006317.xml ------>E - ( f )------GT>E-(f)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006318.xml ------>a c------GT>ac
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006319.xml ------>{x}_{1} - {x}_{2} + {y}_{1} - {y}_{2} + {z}_{1} - {z}_{2}------GT>{x}_{1}-{x}_{2}+{y}_{1}-{y}_{2}+{z}_{1}-{z}_{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006320.xml ------>\frac{{x}^{4}}{{2}^{3}} - {( \frac{2}{x} )}^{- 4}------GT>\frac{{x}^{4}}{{2}^{3}}-{(\frac{2}{x})}^{-4}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006321.xml ------>\sqrt{1}------GT>\sqrt {1}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006322.xml ------>{x}_{1} \times {x}_{2} \times {x}_{3} \times {x}_{4} = X------GT>{x}_{1} \times {x}_{2} \times {x}_{3} \times {x}_{4}=X
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006324.xml ------>{z}_{1}^{2} + {1}^{z} - {z}_{2}^{2} + {2}^{z}------GT>{z}_{1}^{2}+{1}^{z}-{z}_{2}^{2}+{2}^{z}
@@ -5041,6 +5064,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006356.xml ------>{x}_{l b}------GT>{x}_{lb}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006357.xml ------>2 {X}^{2} + 5 X - 3 = 0------GT>2{X}^{2}+5X-3=0
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006358.xml ------>f ( x ) = a {x}^{2} + b x + c------GT>f(x)=a{x}^{2}+bx+c
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006359.xml ------>{\log}_{c} a------GT>{\log }_{c}a
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006360.xml ------>( {z}^{\frac{n}{2}} + {y}^{\frac{n}{2}} ) ( {z}^{\frac{n}{2}} - {y}^{\frac{n}{2}} ) = x------GT>({z}^{\frac{n}{2}}+{y}^{\frac{n}{2}})({z}^{\frac{n}{2}}-{y}^{\frac{n}{2}})=x
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006361.xml ------>{h}^{2} = {a}^{2} + {b}^{2}------GT>{h}^{2}={a}^{2}+{b}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0006362.xml ------>w = x + i y------GT>w=x+iy
@@ -5557,7 +5581,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007317.xml ------>| T {Y}_{1} | = | f ( s + \frac{{q}^{2}}{z} ) |------GT>|T{Y}_{1}|=|f(s+\frac{{q}^{2}}{z})|
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007318.xml ------>{( \sqrt[n]{l} )}^{x} = l------GT>{(\sqrt[n]{l})}^{x}=l
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007325.xml ------>y ( n e ) = t ( m ) l ( x )------GT>y(ne)=t(m)l(x)
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007329.xml ------>G = \frac{p}{66 7} \gamma {Y}^{8}------GT>G=\frac{p}{667}\gamma {Y}^{8}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007330.xml ------>( 360 + 321 ) - ( 63 0 + 7 06 ) = - 9 45------GT>(360+321)-(630+706)=-945
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007331.xml ------>\frac{{j}_{4} k}{{y}^{2}} + \frac{{b}_{4} p}{{l}^{2}} = 6------GT>\frac{{j}_{4}k}{{y}^{2}}+\frac{{b}_{4}p}{{l}^{2}}=6
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007335.xml ------>53 \times 44 \times 15 = 47 19------GT>53 \times 44 \times 15=4719
@@ -5657,7 +5680,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007665.xml ------>\frac{w}{l} + \frac{t}{l} = j------GT>\frac{w}{l}+\frac{t}{l}=j
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007669.xml ------>{( s - q )}^{3} + {( v - m )}^{8} = {n}^{7}------GT>{(s-q)}^{3}+{(v-m)}^{8}={n}^{7}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007672.xml ------>{a}_{p} = {v}_{7} {p}^{h - 5}------GT>{a}_{p}={v}_{7}{p}^{h-5}
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007673.xml ------>{n}_{b} = {e}_{2} {j}^{r - 2}------GT>{n}_{b}={e}_{2}{j}^{r-2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007676.xml ------>98 \times 49 \times 80 = 23 44------GT>98 \times 49 \times 80=2344
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007682.xml ------>22 3 \times 22 \times 83 3 = 2 875------GT>223 \times 22 \times 833=2875
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0007684.xml ------>78 + 63 - 21 + 23 = - 4------GT>78+63-21+23=-4
@@ -5818,6 +5840,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008128.xml ------>{s}_{3} j + {m}_{4} p = {f}^{3}------GT>{s}_{3}j+{m}_{4}p={f}^{3}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008131.xml ------>A = x ( V )------GT>A=x(V)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008133.xml ------>{( t + n )}^{2} = {s}^{2} + 2 w e + {a}^{2}------GT>{(t+n)}^{2}={s}^{2}+2we+{a}^{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008134.xml ------>d ( b ) = a {( j - s )}^{4} + w------GT>d(b)=a{(j-s)}^{4}+w
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008142.xml ------>q ( k + m ) = h ( - g - f )------GT>q(k+m)=h(-g-f)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008143.xml ------>I + I = H------GT>I+I=H
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008145.xml ------>95 3 \times 97 \times 9 16 = 8 549------GT>953 \times 97 \times 916=8549
@@ -5831,6 +5854,7 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008173.xml ------>{\log}_{d} d = 1------GT>{\log }_{d}d=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008178.xml ------>A = x ( V )------GT>A=x(V)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008180.xml ------>{( t + n )}^{2} = {s}^{2} + 2 w e + {a}^{2}------GT>{(t+n)}^{2}={s}^{2}+2we+{a}^{2}
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008181.xml ------>d ( b ) = a {( j - s )}^{4} + w------GT>d(b)=a{(j-s)}^{4}+w
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008189.xml ------>q ( k + m ) = h ( - g - f )------GT>q(k+m)=h(-g-f)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008190.xml ------>I + I = H------GT>I+I=H
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008192.xml ------>95 3 \times 97 \times 91 6 = 8 549------GT>953 \times 97 \times 916=8549
@@ -5842,7 +5866,6 @@ D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC200
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008217.xml ------>{\int}_{E}^{R} T f ( \theta ) d \theta = T {\int}_{E}^{R} f ( \theta ) d \theta------GT>{\int }_{E}^{R}Tf(\theta )d\theta =T{\int }_{E}^{R}f(\theta )d\theta 
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008218.xml ------>t = j ( | i | )------GT>t=j(|i|)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008219.xml ------>308 \times 262 \times 7 = 6------GT>308 \times 262 \times 7=6
-D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008220.xml ------>{\log}_{d} d = 1------GT>{\log }_{d}d=1
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008225.xml ------>A = x ( V )------GT>A=x(V)
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008227.xml ------>{( t + n )}^{2} = {s}^{2} + 2 w e + {a}^{2}------GT>{(t+n)}^{2}={s}^{2}+2we+{a}^{2}
 D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat-batch\ND-seshat-batch\VOC2007\Annotations\hwf_0008228.xml ------>d ( b ) = a {( j - s )}^{4} + w------GT>d(b)=a{(j-s)}^{4}+w

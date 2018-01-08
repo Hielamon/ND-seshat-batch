@@ -658,7 +658,7 @@ private:
 
 				 //for SUB and SUP
 				 int hbboxcen = (bbox.t + bbox.y) * 0.5;
-				 int hbleftcen = hb->lcen;
+				 int hbleftcen = hbboxcen;
 				 //int hbleftcen = pType == Grammar::PBTYPE::SUB ? std::min(hb->lcen, hbboxcen) : std::max(hb->lcen, hbboxcen);
 				 int cenDiff2 = ha->rcen - hbleftcen;
 
