@@ -1,0 +1,4 @@
+..\x64\Release\ND-seshat.exe -imgdir VOC2007/JPEGImages/ -xml VOC2007/Annotations/hwf_0000000.xml
+..\x64\Release\ND-seshat-batch.exe -batch_file Result/symErrorSampleList.txt -latexGT_file EMPTY -showSample yes -save no
+..\x64\Release\ND-seshat-batch.exe -batch_file Result/parseErrorSampleList.txt -latexGT_file VOC2007/latexListMap.txt -showSample yes -save no
+..\x64\Release\ND-seshat-batch.exe -batch_file VOC2007/Annotations/filename.txt -latexGT_file VOC2007/latexListMap.txt -showSample no -save yes

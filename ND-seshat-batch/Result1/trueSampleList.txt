@@ -1,0 +1,120 @@
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000084.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000101.xml ------>\gamma------GT>\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000109.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000145.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000260.xml ------>\phi------GT>\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000343.xml ------>\phi------GT>\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000439.xml ------>\lambda------GT>\lambda 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000613.xml ------>\theta------GT>\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000724.xml ------>\theta------GT>\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000732.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000739.xml ------>\beta------GT>\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000753.xml ------>3 - \alpha------GT>3-\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000774.xml ------>\theta = \phi------GT>\theta =\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000810.xml ------>x = \pm n \pi------GT>x= \pm n\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000957.xml ------>\alpha \times \beta------GT>\alpha  \times \beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0000998.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001105.xml ------>\gamma------GT>\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001118.xml ------>\lambda------GT>\lambda 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001132.xml ------>\alpha + 0 = \alpha------GT>\alpha +0=\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001155.xml ------>v ( x ) = \infty------GT>v(x)=\infty 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001177.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001229.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001273.xml ------>2i \pi------GT>2i\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001286.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001437.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001457.xml ------>s = n + \alpha------GT>s=n+\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001505.xml ------>t = x - n \pi------GT>t=x-n\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001568.xml ------>\log \phi------GT>\log \phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001655.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001755.xml ------>2i k \pi------GT>2ik\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001855.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001924.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0001990.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002021.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002053.xml ------>\alpha + \gamma------GT>\alpha +\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002263.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002381.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002389.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002407.xml ------>- c \theta------GT>-c\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002535.xml ------>b \sigma------GT>b\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002565.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002758.xml ------>\beta------GT>\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002908.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002909.xml ------>x - \int F d \lambda------GT>x-\int Fd\lambda 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0002930.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003141.xml ------>- \sigma------GT>-\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003147.xml ------>\pi - \theta------GT>\pi -\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003187.xml ------>\frac{1}{3} \frac{1}{3} \gamma------GT>\frac{1}{3}\frac{1}{3}\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003264.xml ------>a + \pi------GT>a+\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003280.xml ------>\phi------GT>\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003337.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003365.xml ------>{\theta}_{2} = \theta------GT>{\theta }_{2}=\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003384.xml ------>- \gamma------GT>-\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003387.xml ------>\beta------GT>\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003420.xml ------>p o \beta------GT>po\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003516.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003677.xml ------>- \pi------GT>-\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003786.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003839.xml ------>- \sigma------GT>-\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003856.xml ------>2i \pi------GT>2i\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0003964.xml ------>\alpha = \beta------GT>\alpha =\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004152.xml ------>F + \alpha------GT>F+\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004172.xml ------>\gamma = \pi - \alpha - \beta------GT>\gamma =\pi -\alpha -\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004177.xml ------>G + N + \Delta------GT>G+N+\Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004234.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004502.xml ------>a = \alpha + i \beta------GT>a=\alpha +i\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004640.xml ------>\frac{e}{p} \gamma------GT>\frac{e}{p}\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004678.xml ------>\alpha + \beta------GT>\alpha +\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004689.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004710.xml ------>\beta------GT>\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004768.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004815.xml ------>- \sigma------GT>-\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004840.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004845.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004908.xml ------>- \int z d \beta------GT>-\int zd\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004913.xml ------>{z}^{\Delta} \mu------GT>{z}^{\Delta }\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004918.xml ------>\int \alpha d \Delta------GT>\int \alpha d\Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004927.xml ------>M - q = - \sigma------GT>M-q=-\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004937.xml ------>{v}^{r} \int c d \beta------GT>{v}^{r}\int cd\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004976.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0004987.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005015.xml ------>\int - w d \Delta------GT>\int -wd\Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005137.xml ------>r ( l ) = \infty------GT>r(l)=\infty 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005156.xml ------>\Delta------GT>\Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005224.xml ------>{\gamma}^{0} = \beta------GT>{\gamma }^{0}=\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005250.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005265.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005336.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005337.xml ------>q + \phi------GT>q+\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005361.xml ------>{\int}_{a}^{b} \phi------GT>{\int }_{a}^{b}\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005384.xml ------>\alpha + \gamma = \beta------GT>\alpha +\gamma =\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005402.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005409.xml ------>\log \Delta------GT>\log \Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005539.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005562.xml ------>r = \alpha------GT>r=\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005623.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005716.xml ------>\lambda------GT>\lambda 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005765.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005795.xml ------>\beta------GT>\beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005799.xml ------>\gamma = \infty------GT>\gamma =\infty 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005845.xml ------>\mu------GT>\mu 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005856.xml ------>{\int}_{a}^{b} \phi------GT>{\int }_{a}^{b}\phi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0005897.xml ------>- \alpha------GT>-\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006037.xml ------>\sigma------GT>\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006160.xml ------>\pi------GT>\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006181.xml ------>( k - 1 ) \theta------GT>(k-1)\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006212.xml ------>L = {\int}_{0}^{\infty} {L}_{\lambda} d \lambda------GT>L={\int }_{0}^{\infty }{L}_{\lambda }d\lambda 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006259.xml ------>\Delta------GT>\Delta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006429.xml ------>\beta = \pi------GT>\beta =\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006477.xml ------>{\phi}_{k} = \pi------GT>{\phi }_{k}=\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006482.xml ------>x = c \times \beta------GT>x=c \times \beta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006549.xml ------>\theta + \pi------GT>\theta +\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006576.xml ------>- \sigma------GT>-\sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006621.xml ------>2k \pi------GT>2k\pi 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006784.xml ------>\alpha------GT>\alpha 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0006787.xml ------>\gamma------GT>\gamma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0007946.xml ------>\pi = \pi \pi \pi \sigma------GT>\pi =\pi \pi \pi \sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0007989.xml ------>\pi = \pi \pi \pi \sigma------GT>\pi =\pi \pi \pi \sigma 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0008123.xml ------>{\int}_{E}^{R} T f ( \theta ) d \theta = T {\int}_{E}^{R} f ( \theta ) d \theta------GT>{\int }_{E}^{R}Tf(\theta )d\theta =T{\int }_{E}^{R}f(\theta )d\theta 
+D:\Funny-Works\Academic-Codes\HandWritten\ND-seshat\ND-seshat\VOC2007\Annotations\hwf_0008217.xml ------>{\int}_{E}^{R} T f ( \theta ) d \theta = T {\int}_{E}^{R} f ( \theta ) d \theta------GT>{\int }_{E}^{R}Tf(\theta )d\theta =T{\int }_{E}^{R}f(\theta )d\theta 

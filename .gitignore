@@ -6,6 +6,11 @@
 *.user
 *.userosscache
 *.sln.docstates
+*.xml
+*.jpg
+*.bat
+ND-seshat-batch/VOC2007/ImageSets/
+ND-seshat-batch/VOC2007/Annotations/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
