@@ -130,7 +130,7 @@ private:
 	double compute_prob(std::shared_ptr<Hypothesis> &h1, std::shared_ptr<Hypothesis> &h2, int k)
 	{
 		//Set probabilities according to spatial constraints  
-
+		double result = 1.0;
 		if (k <= 2) {
 			//Check left-to-right order constraint in Hor/Sub/Sup relationships
 			std::shared_ptr<Hypothesis> rma = rightmost(h1);
@@ -144,6 +144,12 @@ private:
 
 			if (lmb->pCInfo->box.x < rma->pCInfo->box.x + rminshift || lmb->pCInfo->box.s + lminshift <= rma->pCInfo->box.s)
 				return 0.0;
+
+			if (k == 0)
+			{
+				double overlap = std::max(solape(rma, lmb), solape(lmb, rma));
+				result = 1.0 / (1.0 + exp((overlap - 0.85) * 10));
+			}
 
 			return 1.0;
 		}
@@ -225,7 +231,13 @@ public:
 		int yDiff = bbox.y - abox.y;
 		int xsDiff = bbox.x - abox.s;
 
-		score = cenScore;
+		//Penalty for overlap
+		std::shared_ptr<Hypothesis> rma = rightmost(ha);
+		std::shared_ptr<Hypothesis> lmb = leftmost(hb);
+		double overlap = std::max(solape(rma, lmb), solape(lmb, rma));
+		double overlapPen = 1.0 / (1.0 + exp((overlap - 0.85) * 10));
+
+		score = cenScore*overlapPen;
 		return std::min(maxScore, score);
 	}
 
@@ -392,6 +404,12 @@ public:
 		if (solape(hb, ha) < 0.4 ||
 			hb->pCInfo->box.x < ha->pCInfo->box.x || hb->pCInfo->box.y < (ha->pCInfo->box.y - sqrtH*0.3))
 			return 0.0;
+
+
+		std::shared_ptr<Hypothesis> rma = rightmost(ha);
+		std::shared_ptr<Hypothesis> rmb = rightmost(hb);
+
+		if (rma->pCInfo->box.s <= rmb->pCInfo->box.x + 1) return 0.0;
 
 		/*if (solape(hb, ha) < 0.5 ||
 		hb->pCInfo->box.x < ha->pCInfo->box.x || hb->pCInfo->box.y < ha->pCInfo->box.y)
