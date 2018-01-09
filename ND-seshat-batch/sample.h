@@ -110,6 +110,8 @@ public:
 		return true;
 	}
 
+	
+
 	void ShowSample(const std::string &windowName = "Sample")
 	{
 		if (Img.empty())
@@ -280,8 +282,6 @@ public:
 	{
 		return vSegUnits[segIdx];
 	}
-
-
 
 	cv::Mat getRGBImg()
 	{
