@@ -4,6 +4,7 @@
 #include <boost/property_tree/xml_parser.hpp>
 #include <commonMacro.h>
 #include <algorithm>
+#include <iostream>
 
 #include "symSet.h"
 
@@ -12,9 +13,9 @@
 struct SegUnit
 {
 	cv::Rect ROI;
-	double score;
-	int symID;
-	std::string symStr;
+	std::vector<double> vScore;
+	std::vector<int> vSymID;
+	std::vector<std::string> vSymStr;
 };
 
 inline int computeRectArea(cv::Rect r)
@@ -84,17 +85,19 @@ public:
 				int nameID = iter->second.get<int>("name");
 				if (nameID >= 0 && nameID < mCharMap.size())
 				{
-					seg.symID = mCharMap[nameID].second;
-					if (seg.symID < 0 || seg.symID >= pSymSet->getNClases())
+					int symID;
+					symID = mCharMap[nameID].second;
+					if (symID < 0 || symID >= pSymSet->getNClases())
 						HL_CERR_RETURN_FALSE("The symbol " + mCharMap[nameID].first +
-								" doesn't have a valid ID (" << seg.symID << ") in the symbol set");
+											 " doesn't have a valid ID (" << symID << ") in the symbol set");
 
-					seg.symStr = pSymSet->strClase(seg.symID);
+					seg.vScore.push_back(1.0);
+					seg.vSymID.push_back(symID);
+					seg.vSymStr.push_back(pSymSet->strClase(symID));
 				}
 				else
 					HL_CERR_RETURN_FALSE("The symbol ID " << nameID << " from xml file is not valid ");
 
-				seg.score = 1.0;
 
 				int x = iter->second.get<int>("bndbox.xmin");
 				int y = iter->second.get<int>("bndbox.ymin");
@@ -110,7 +113,71 @@ public:
 		return true;
 	}
 
-	
+	bool LoadFromUnifromFile(const std::string &unifromFName, std::string &gtLatex,
+							 std::map<std::string, int> &symbolMap, bool withGT = true)
+	{
+		std::fstream fs(unifromFName, std::ios::in);
+		if (!fs.is_open())
+			HL_CERR_RETURN_FALSE("Failed to open the file " << unifromFName);
+
+		int segN;
+		std::string imgFullPath;
+		fs >> W >> H >> segN >> imgFullPath;
+		Img = cv::imread(imgFullPath, cv::IMREAD_GRAYSCALE);
+		cv::threshold(Img, Img, 100, 255, cv::ThresholdTypes::THRESH_BINARY);
+
+		if (W == 0 || H == 0)
+		{
+			W = Img.cols;
+			H = Img.rows;
+		}
+
+		if (withGT)
+		{
+			std::getline(fs, gtLatex);
+			std::getline(fs, gtLatex);
+		}
+
+
+		vSegUnits.resize(segN);
+
+		for (size_t i = 0; i < segN; i++)
+		{
+			int symN = 0;
+			fs >> symN;
+			vSegUnits[i].vScore.resize(symN);
+			vSegUnits[i].vSymID.resize(symN);
+			vSegUnits[i].vSymStr.resize(symN);
+
+			for (size_t j = 0; j < symN; j++)
+			{
+				fs >> vSegUnits[i].vSymStr[j] >> vSegUnits[i].vScore[j];
+				auto it = symbolMap.find(vSegUnits[i].vSymStr[j]);
+
+				if (it != symbolMap.end())
+				{
+					if (it->second >= 0 && it->second < pSymSet->getNClases())
+					{
+						vSegUnits[i].vSymID[j] = it->second;
+					}
+					else
+						HL_CERR_RETURN_FALSE("The symbol " + vSegUnits[i].vSymStr[j] +
+											 " doesn't have a valid ID(" << it->second << ") in the symbol set");
+				}
+				else
+					HL_CERR_RETURN_FALSE("The symbol " + vSegUnits[i].vSymStr[j] +
+										 " is not found in charmap file");
+				
+			}
+
+			int x, y, s, t;
+			fs >> x >> y >> s >> t;
+
+			vSegUnits[i].ROI = cv::Rect(x, y, s - x, t - y);
+		}
+
+		fs.close();
+	}
 
 	void ShowSample(const std::string &windowName = "Sample")
 	{
@@ -133,7 +200,7 @@ public:
 			cv::rectangle(showImg, scaledROI, color, 2 * scale, cv::LINE_AA);
 			ioStr.str("");
 			//ioStr << seg.symID << " | " << seg.symStr << " | " << seg.score;
-			ioStr << seg.symID << " | " << seg.symStr << " | " << i;
+			ioStr << seg.vSymID[0] << " | " << seg.vSymStr[0] << " | " << i;
 			i++;
 			cv::putText(showImg, ioStr.str(), scaledROI.tl() - cv::Point(0, 2 * scale), cv::HersheyFonts::FONT_HERSHEY_COMPLEX, 0.8, color);
 		});
@@ -226,23 +293,26 @@ public:
 		return vSegUnits.size();
 	}
 
+	//Get the N-Best symbol hypothesis , if there are not enough hypothesis return all existed
 	void getSegUnitInfo(int segIdx, int NBest, std::vector<int> &vSymIdx,
 						std::vector<float> &vProb, int &cmy, int &asc, int &des)
 	{
-		if (NBest != 1)
-			HL_CERR("Request teh NB = 1 currently!!!");
+		/*if (NBest != 1)
+			HL_CERR("Request teh NB = 1 currently!!!");*/
 
 		vSymIdx.resize(NBest);
 		vProb.resize(NBest);
 
 		SegUnit &curSeg = vSegUnits[segIdx];
 
-		//Get from the Ground truth, just only one
-		vSymIdx[0] = curSeg.symID;
-		vProb[0] = 1.0;
+		int actualNBest = curSeg.vScore.size() >= NBest ? NBest : curSeg.vScore.size();
+		for (size_t i = 0; i < actualNBest; i++)
+		{
+			vSymIdx[i] = curSeg.vSymID[i];
+			vProb[i] = curSeg.vScore[i];
+		}
 
 		cv::Mat segMat = Img(curSeg.ROI);
-
 		int n = 0;
 		cmy = 0;
 		float asc_ = 0, des_ = 0;

@@ -13,13 +13,35 @@
 #include "sample.h"
 #include "meParser.h"
 
-std::string testXML = "VOC2007/Annotations/hwf_0000007.xml";
-std::string imgPath = "VOC2007/JPEGImages/";
-std::string batchFileList = "testfilename.txt";
-//std::string batchFileList = "VOC2007/Annotations/filename.txt";
-std::string latexListMapFName = "VOC2007/latexListMap.txt";
-bool IsShowSample = false;
-bool saveResult = true;
+std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
+std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
+bool IsShowSample = !false;
+bool saveResult = !true;
+bool withGT = true;
+bool symErrStop = false;
+
+inline bool getSymbolMap(const std::string &filename, std::map<std::string, int> &symbolMap)
+{
+	if (!symbolMap.empty()) symbolMap.clear();
+	std::fstream fs(filename, std::ios::in);
+	if (!fs.is_open())
+		HL_CERR_RETURN_FALSE("Failed to open the file " + filename);
+	int charMapSize;
+	fs >> charMapSize;
+	for (size_t i = 0; i < charMapSize; i++)
+	{
+		std::string symbolName;
+		int mapID;
+		fs >> symbolName >> mapID;
+		if (symbolMap.find(symbolName) == symbolMap.end())
+		{
+			symbolMap[symbolName] = mapID;
+		}
+		else
+			HL_CERR_RETURN_FALSE("Symbol is duplicated in charmap file " + filename);
+	}
+	fs.close();
+}
 
 bool checkLatex(std::string &latex1, std::string &latex2)
 {
@@ -58,7 +80,11 @@ bool checkLatexNew(std::string &latex1, std::string &latex2)
 		{ "{\\int}", "int" },
 		{ "{\\log}", "log" },
 		{ "\\int", "int" },
-		{"\\log", "log"},
+		{ "\\log", "log" },
+		{ "\\\\", "\\" },
+		{ "\\{", "{" },
+		{ "\\}", "}" },
+		//{ "\\lg", "lg" }
 	};
 
 	size_t pos = std::string::npos;
@@ -75,25 +101,6 @@ bool checkLatexNew(std::string &latex1, std::string &latex2)
 	std::cout << "s1     = " << s1 << std::endl;
 	std::cout << "s2(GT) = " << s2 << std::endl;
 	return s1 == s2;
-}
-
-bool getLatexListMap(const std::string &filename, std::map<std::string, std::string> &latexListMap)
-{
-	std::fstream fs(filename, std::ios::in);
-	if (!fs.is_open())
-		HL_CERR_RETURN_FALSE("Failed to open the file " << filename);
-
-	std::string line;
-	while (std::getline(fs, line) && !line.empty())
-	{
-		size_t spos = line.find(" ");
-		std::string latexID, latex;
-		latexID.assign(line.begin(), line.begin() + spos);
-		latex.assign(line.begin() + spos + 1, line.end());
-		latexListMap[latexID] = latex;
-	}
-
-	return true;
 }
 
 void printUsage()
@@ -117,24 +124,17 @@ int parseCmdArgs(int argc, char** argv)
 			printUsage();
 			return 0;
 		}
-		else if (std::string(argv[i]) == "-xml")
-		{
-			testXML = std::string(argv[i + 1]);
-			i++;
-		}
-		else if (std::string(argv[i]) == "-imgdir")
-		{
-			imgPath = std::string(argv[i + 1]);
-			i++;
-		}
 		else if (std::string(argv[i]) == "-batch_file")
 		{
 			batchFileList = std::string(argv[i + 1]);
 			i++;
 		}
-		else if (std::string(argv[i]) == "-latexGT_file")
+		else if (std::string(argv[i]) == "-withGT")
 		{
-			latexListMapFName = std::string(argv[i + 1]);
+			if (std::string(argv[i + 1]) == "yes")
+				withGT = true;
+			else if (std::string(argv[i + 1]) == "no")
+				withGT = false;
 			i++;
 		}
 		else if (std::string(argv[i]) == "-showSample")
@@ -151,6 +151,14 @@ int parseCmdArgs(int argc, char** argv)
 				saveResult = true;
 			else if (std::string(argv[i + 1]) == "no")
 				saveResult = false;
+			i++;
+		}
+		else if (std::string(argv[i]) == "-symErrStop")
+		{
+			if (std::string(argv[i + 1]) == "yes")
+				symErrStop = true;
+			else if (std::string(argv[i + 1]) == "no")
+				symErrStop = false;
 			i++;
 		}
 		else
@@ -179,19 +187,20 @@ int main(int argc, char *argv[])
 
 	std::shared_ptr<Sample> sample = std::make_shared<Sample>(pSymSet);
 
-	std::map<std::string, std::string> latexListMap;
-	getLatexListMap(latexListMapFName, latexListMap);
+	std::map<std::string, int> symbolMap;
+	getSymbolMap(VOC2007CharMapFName, symbolMap);
 
 	std::fstream fs(batchFileList, std::ios::in);
 	if (!fs.is_open())
 		HL_CERR("Failed to open the file " << batchFileList);
 
-	std::string sampleFileName, line, gtLatexID;
-	std::map<std::string, std::string>::iterator it = latexListMap.end();
-	std::vector<std::string> vSymErrorNames, vLatexErrorNames;
+	std::string sampleFileName, line, gtLatex;
+	std::vector<std::string> vSymErrorNames;
 	std::vector<std::string> vParseErrorNames, vParseErrorLatexs, vParseErrorGTLatexs;
 	std::vector<std::string> vTrueNames, vTrueLatexs, vTrueGTLatexs;
+
 	std::string sepLine(120, '-');
+
 	std::stringstream ioStr;
 	while (std::getline(fs, line) && !line.empty())
 	{
@@ -201,11 +210,11 @@ int main(int argc, char *argv[])
 		ioStr << line;
 		ioStr >> sampleFileName;
 		std::cout << "Excute file : " << sampleFileName << std::endl;
-		if (sample->LoadFromVOC2007XML(sampleFileName, imgPath, gtLatexID))
+		if (sample->LoadFromUnifromFile(sampleFileName, gtLatex, symbolMap, withGT))
 		{
 			std::string latexResult = meparser.parse(sample);
 
-			if (latexListMap.empty())
+			if (gtLatex.empty())
 			{
 				vTrueNames.push_back(sampleFileName);
 				vTrueLatexs.push_back(latexResult);
@@ -214,33 +223,22 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				if ((it = latexListMap.find(gtLatexID)) != latexListMap.end())
+				if (checkLatexNew(latexResult, gtLatex))
 				{
-					if (checkLatexNew(latexResult, it->second))
-					{
-						vTrueNames.push_back(sampleFileName);
-						vTrueLatexs.push_back(latexResult);
-						vTrueGTLatexs.push_back(it->second);
-						std::cout << "True Sample" << std::endl;
-					}
-					else
-					{
-						//Parse to wrong Result
-						vParseErrorNames.push_back(sampleFileName);
-						vParseErrorLatexs.push_back(latexResult);
-						vParseErrorGTLatexs.push_back(it->second);
-						std::cout << "False Sample" << std::endl;
-					}
-					std::cout << "GT Latex : " << it->second << std::endl;
+					vTrueNames.push_back(sampleFileName);
+					vTrueLatexs.push_back(latexResult);
+					vTrueGTLatexs.push_back(gtLatex);
+					std::cout << "True Sample" << std::endl;
 				}
 				else
 				{
-					if (it == latexListMap.end())
-					{
-						//invalid samples, does not have a ground truth latex
-						vLatexErrorNames.push_back(sampleFileName);
-					}
+					//Parse to wrong Result
+					vParseErrorNames.push_back(sampleFileName);
+					vParseErrorLatexs.push_back(latexResult);
+					vParseErrorGTLatexs.push_back(gtLatex);
+					std::cout << "False Sample" << std::endl;
 				}
+				std::cout << "GT Latex : " << gtLatex << std::endl;
 			}
 
 			size_t pos = sampleFileName.rfind("\\");
@@ -261,16 +259,16 @@ int main(int argc, char *argv[])
 		{
 			//invalid samples , need to fix the symbol set or grammar rules
 			vSymErrorNames.push_back(sampleFileName);
+			if (symErrStop)
+				system("PAUSE");
 		}
 	}
 
 	fs.close();
-	int nsErr = vSymErrorNames.size(), nlatErr = vLatexErrorNames.size(),
-		npErr = vParseErrorNames.size(), ntrue = vTrueNames.size();
-	std::cout << "Total samples : " << nsErr + nlatErr + npErr + ntrue << std::endl;
+	int nsErr = vSymErrorNames.size(), npErr = vParseErrorNames.size(), ntrue = vTrueNames.size();
+	std::cout << "Total samples : " << nsErr + npErr + ntrue << std::endl;
 
 	std::cout << "Symbol Error samples : " << nsErr << std::endl;
-	std::cout << "No Ground Truth samples : " << nlatErr << std::endl;
 	std::cout << "Accurancy : " << ntrue / float(npErr + ntrue) << "( " << ntrue << "/" << npErr + ntrue << " )" << std::endl;
 
 	if (!saveResult)return 0;
@@ -283,7 +281,6 @@ int main(int argc, char *argv[])
 		_mkdir(resultDir.c_str());
 
 	std::string symErrorFName = resultDir + "/" + "symErrorSampleList.txt";
-	std::string latexErrorFName = resultDir + "/" + "latexErrorSampleList.txt";
 	std::string parseErrorFName = resultDir + "/" + "parseErrorSampleList.txt";
 	std::string trueFName = resultDir + "/" + "trueSampleList.txt";
 
@@ -294,16 +291,6 @@ int main(int argc, char *argv[])
 
 	for (size_t i = 0; i < vSymErrorNames.size(); i++)
 		fs << vSymErrorNames[i] << std::endl;
-
-	fs.close();
-
-	//Save the latex ground truth set error file list
-	fs.open(latexErrorFName, std::ios::out);
-	if (!fs.is_open())
-		HL_CERR("Failed to open the file " << latexErrorFName);
-
-	for (size_t i = 0; i < vLatexErrorNames.size(); i++)
-		fs << vLatexErrorNames[i] << std::endl;
 
 	fs.close();
 

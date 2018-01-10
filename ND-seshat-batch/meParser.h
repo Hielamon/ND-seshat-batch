@@ -463,8 +463,8 @@ private:
 
 			std::cout << "Segment " << i << std::endl;
 
-			std::vector<int> clase(NB);
-			std::vector<float> pr(NB);
+			std::vector<int> clase;
+			std::vector<float> pr;
 
 			M->getSegUnitInfo(i, NB, clase, pr, cmy, asc, des);
 
@@ -472,13 +472,15 @@ private:
 
 			pCell->setRegion(*M, i);
 
+			int actualNB = clase.size();
+
 			bool insertar = false;
 			for (size_t i = 0; i < pG->prodTerms.size(); i++)
 			{
 				std::shared_ptr<ProductionT> &prod = pG->prodTerms[i];
 				int ntID = prod->getNoTerm();
 
-				for (int k = 0; k < NB; k++)
+				for (int k = 0; k < actualNB; k++)
 				{
 					if (pr[k] > 0.0 && prod->getClase(clase[k]) && prod->getPrior(clase[k]) > -FLT_MAX)
 					{
