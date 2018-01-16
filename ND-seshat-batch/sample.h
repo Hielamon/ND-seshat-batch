@@ -179,6 +179,71 @@ public:
 		fs.close();
 	}
 
+	bool LoadFromUnifromFile(const std::string &unifromFName, std::string &gtLatex, std::string &imgFullPath,
+							 std::map<std::string, int> &symbolMap, bool withGT = true)
+	{
+		std::fstream fs(unifromFName, std::ios::in);
+		if (!fs.is_open())
+			HL_CERR_RETURN_FALSE("Failed to open the file " << unifromFName);
+
+		int segN;
+		fs >> W >> H >> segN >> imgFullPath;
+		Img = cv::imread(imgFullPath, cv::IMREAD_GRAYSCALE);
+		cv::threshold(Img, Img, 100, 255, cv::ThresholdTypes::THRESH_BINARY);
+
+		if (W == 0 || H == 0)
+		{
+			W = Img.cols;
+			H = Img.rows;
+		}
+
+		if (withGT)
+		{
+			std::getline(fs, gtLatex);
+			std::getline(fs, gtLatex);
+		}
+
+
+		vSegUnits.resize(segN);
+
+		for (size_t i = 0; i < segN; i++)
+		{
+			int symN = 0;
+			fs >> symN;
+			vSegUnits[i].vScore.resize(symN);
+			vSegUnits[i].vSymID.resize(symN);
+			vSegUnits[i].vSymStr.resize(symN);
+
+			for (size_t j = 0; j < symN; j++)
+			{
+				fs >> vSegUnits[i].vSymStr[j] >> vSegUnits[i].vScore[j];
+				auto it = symbolMap.find(vSegUnits[i].vSymStr[j]);
+
+				if (it != symbolMap.end())
+				{
+					if (it->second >= 0 && it->second < pSymSet->getNClases())
+					{
+						vSegUnits[i].vSymID[j] = it->second;
+					}
+					else
+						HL_CERR_RETURN_FALSE("The symbol " + vSegUnits[i].vSymStr[j] +
+											 " doesn't have a valid ID(" << it->second << ") in the symbol set");
+				}
+				else
+					HL_CERR_RETURN_FALSE("The symbol " + vSegUnits[i].vSymStr[j] +
+										 " is not found in charmap file");
+
+			}
+
+			int x, y, s, t;
+			fs >> x >> y >> s >> t;
+
+			vSegUnits[i].ROI = cv::Rect(x, y, s - x, t - y);
+		}
+
+		fs.close();
+	}
+
 	void ShowSample(const std::string &windowName = "Sample")
 	{
 		if (Img.empty())

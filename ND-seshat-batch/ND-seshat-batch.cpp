@@ -194,7 +194,7 @@ int main(int argc, char *argv[])
 	if (!fs.is_open())
 		HL_CERR("Failed to open the file " << batchFileList);
 
-	std::string sampleFileName, line, gtLatex;
+	std::string sampleFileName, line, gtLatex, imgPath;
 	std::vector<std::string> vSymErrorNames;
 	std::vector<std::string> vParseErrorNames, vParseErrorLatexs, vParseErrorGTLatexs;
 	std::vector<std::string> vTrueNames, vTrueLatexs, vTrueGTLatexs;
@@ -210,7 +210,7 @@ int main(int argc, char *argv[])
 		ioStr << line;
 		ioStr >> sampleFileName;
 		std::cout << "Excute file : " << sampleFileName << std::endl;
-		if (sample->LoadFromUnifromFile(sampleFileName, gtLatex, symbolMap, withGT))
+		if (sample->LoadFromUnifromFile(sampleFileName, gtLatex, imgPath, symbolMap, withGT))
 		{
 			std::string latexResult = meparser.parse(sample);
 
@@ -240,7 +240,7 @@ int main(int argc, char *argv[])
 				}
 				std::cout << "GT Latex : " << gtLatex << std::endl;
 			}
-
+			std::cout << "Image Path : " << imgPath << std::endl;
 			size_t pos = sampleFileName.rfind("\\");
 			std::string pureFileName;
 			if (pos == std::string::npos)

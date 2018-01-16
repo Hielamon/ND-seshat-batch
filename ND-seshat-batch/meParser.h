@@ -207,9 +207,11 @@ public:
 		ptfactor = 0.0;
 		//pbfactor = 0.14864657;
 		pbfactor = 0.0;
-		rfactor = 0.63225349;
+		//rfactor = 0.63225349;
+		rfactor = 1.0;
 		qfactor = 1.88593577;
-		InsPen = 2.11917745;
+		//InsPen = 2.11917745;
+		InsPen = 1;
 	}
 	MeParser() {}
 	~MeParser()	{}
@@ -579,10 +581,13 @@ private:
 		 pCS = std::make_shared<CellCYK>(K, N);
 
 		 std::shared_ptr<Hypothesis> &A = pCA->vNoTerm[ntIDA], &B = pCB->vNoTerm[ntIDB];
+		 int tallaA = A->pCInfo->talla;
+		 int tallaB = B->pCInfo->talla;
+		 int tallaS = tallaA + tallaB;
 
 		 //Compute the (log)probability
 		 //prob = pbfactor * pd->prior + rfactor * log(prob * grpen) + A->pr + B->pr;
-		 prob = pbfactor *pd->prior + rfactor * log(prob * grpen) + (A->pr + B->pr);
+		 prob = pbfactor *pd->prior + rfactor * log(prob * grpen)/* * (1.0 / tallaS)*/ + (A->pr + B->pr);
 
 		 //Copute resulting region
 		 pCS->pCInfo->box.x = std::min(pCA->pCInfo->box.x, pCB->pCInfo->box.x);
@@ -722,6 +727,7 @@ private:
 				 if (std::max(solape(c1->vNoTerm[pa]->hright, c2->vNoTerm[pb]->hright),
 					 solape(c2->vNoTerm[pb]->hright, c1->vNoTerm[pa]->hright)) > 0.1) continue;
 
+				 //TODO : add the score strategy for SSE situation
 				 float prob = c1->vNoTerm[pa]->pr + c2->vNoTerm[pb]->pr - c1->vNoTerm[pa]->hleft->pr;
 
 				 std::shared_ptr<CellCYK> pCell = std::make_shared<CellCYK>(K, N);
