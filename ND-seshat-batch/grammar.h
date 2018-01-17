@@ -108,6 +108,41 @@ public:
 		H, SUP, SUB, V, VE, INS, MRT, SSE
 	};
 
+	std::string strType(PBTYPE pType)
+	{
+		std::string result = "None-defined";
+		switch (pType)
+		{
+		case Grammar::H:
+			result = "H";
+			break;
+		case Grammar::SUP:
+			result = "SUP";
+			break;
+		case Grammar::SUB:
+			result = "SUB";
+			break;
+		case Grammar::V:
+			result = "V";
+			break;
+		case Grammar::VE:
+			result = "VE";
+			break;
+		case Grammar::INS:
+			result = "INS";
+			break;
+		case Grammar::MRT:
+			result = "MRT";
+			break;
+		case Grammar::SSE:
+			result = "SSE";
+			break;
+		default:
+			break;
+		}
+		return result;
+	}
+
 	//TODO: use the glogal prods variable
 	std::vector<std::shared_ptr<ProductionB>> prodsH, prodsSup, prodsSub;
 	std::vector<std::shared_ptr<ProductionB>> prodsV, prodsVe, prodsIns, prodsMrt, prodsSSE;

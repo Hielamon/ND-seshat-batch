@@ -13,6 +13,9 @@
 struct SegUnit
 {
 	cv::Rect ROI;
+	//the standart virtual position
+	std::vector<double> vCen, vTop, vBottom;
+
 	std::vector<double> vScore;
 	std::vector<int> vSymID;
 	std::vector<std::string> vSymStr;
@@ -104,7 +107,7 @@ public:
 				int s = iter->second.get<int>("bndbox.xmax");
 				int t = iter->second.get<int>("bndbox.ymax");
 				seg.ROI = cv::Rect(x, y, s - x, t - y);
-
+				setStdVirtualPos(seg);
 				vSegUnits.push_back(seg);
 			}
 		}
@@ -239,6 +242,7 @@ public:
 			fs >> x >> y >> s >> t;
 
 			vSegUnits[i].ROI = cv::Rect(x, y, s - x, t - y);
+			setStdVirtualPos(vSegUnits[i]);
 		}
 
 		fs.close();
@@ -263,6 +267,18 @@ public:
 			cv::Rect scaledROI(seg.ROI.x * scale, seg.ROI.y * scale,
 							   seg.ROI.width * scale, seg.ROI.height * scale);
 			cv::rectangle(showImg, scaledROI, color, 2 * scale, cv::LINE_AA);
+
+			cv::Point cenLintS(seg.ROI.x * scale, seg.vCen[0] * scale), cenLintE(seg.ROI.br().x * scale, seg.vCen[0] * scale);
+			cv::line(showImg, cenLintS, cenLintE, color, 1, cv::LINE_AA);
+
+			cenLintS = cv::Point(seg.ROI.x * scale, seg.vTop[0] * scale);
+			cenLintE = cv::Point(seg.ROI.br().x * scale, seg.vTop[0] * scale);
+			cv::line(showImg, cenLintS, cenLintE, cv::Scalar(255, 255, 255), 1, cv::LINE_AA);
+
+			cenLintS = cv::Point(seg.ROI.x * scale, seg.vBottom[0] * scale);
+			cenLintE = cv::Point(seg.ROI.br().x * scale, seg.vBottom[0] * scale);
+			cv::line(showImg, cenLintS, cenLintE, cv::Scalar(255, 255, 255), 1, cv::LINE_AA);
+
 			ioStr.str("");
 			//ioStr << seg.symID << " | " << seg.symStr << " | " << seg.score;
 			ioStr << seg.vSymID[0] << " | " << seg.vSymStr[0] << " | " << i;
@@ -609,16 +625,6 @@ public:
 	//Normalized reference symbol size
 	int RX, RY;
 
-	//Move to CellCYK class
-	/*void Sample::setRegion(CellCYK *c, int segIdx) {
-	c->ccc[segIdx] = true;
-
-	c->x = vSegUnits[segIdx].ROI.x;
-	c->y = vSegUnits[segIdx].ROI.y;
-	c->s = vSegUnits[segIdx].ROI.br().x;
-	c->t = vSegUnits[segIdx].ROI.br().y;
-	}*/
-
 public:
 	float INF_DIST;  //Infinite distance value (visibility)
 	float NORMF;     //Normalization factor for distances
@@ -630,4 +636,23 @@ private:
 	int W, H;
 
 	std::shared_ptr<SymSet> pSymSet;
+
+	bool setStdVirtualPos(SegUnit &seg)
+	{
+		int symN = seg.vSymID.size();
+		
+		seg.vCen.resize(symN);
+		seg.vTop.resize(symN);
+		seg.vBottom.resize(symN);
+
+		for (size_t i = 0; i < symN; i++)
+		{
+			StdSymInfo sSymInfo = pSymSet->stdInfoClase(seg.vSymID[i]);
+			double rel_h = sSymInfo.rel_t - sSymInfo.rel_y;
+			double ratio = (seg.ROI.br().y - seg.ROI.y) / rel_h;
+			seg.vCen[i] = seg.ROI.y + (STD_CENTER_Y - sSymInfo.rel_y) * ratio;
+			seg.vTop[i] = seg.ROI.y + (STD_TOP_Y - sSymInfo.rel_y) * ratio;
+			seg.vBottom[i] = seg.ROI.y + (STD_BOTTOM_Y - sSymInfo.rel_y) * ratio;
+		}
+	}
 };

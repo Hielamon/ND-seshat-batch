@@ -11,6 +11,7 @@
 #define NB 1
 
 //#define SHOW_PIPELINE
+//#define LOG_COMPUTE
 
 inline void PrintSymSeg(std::shared_ptr<Hypothesis> &H)
 {
@@ -201,14 +202,17 @@ public:
 			 const std::shared_ptr<GMM> &pGMM_)
 		: pSymSet(pSymSet_), pG(pG_), pGMM(pGMM_) 
 	{
-		//clusterF = 0.15680604;
-		clusterF = 1;
 		//ptfactor = 0.37846575;
 		ptfactor = 0.0;
 		//pbfactor = 0.14864657;
 		pbfactor = 0.0;
+
+		//clusterF = 0.15680604;
+		clusterF = 1;
 		//rfactor = 0.63225349;
+		dfactor = 1.0;
 		rfactor = 1.0;
+
 		qfactor = 1.88593577;
 		//InsPen = 2.11917745;
 		InsPen = 1;
@@ -446,8 +450,9 @@ public:
 	std::shared_ptr<GMM> pGMM;
 	std::shared_ptr<SpaRel> pSPR;
 
-	//ClusterF
-	float clusterF;
+	//Penalty parameters for distance
+	//ClusterF 
+	float clusterF, dfactor;
 
 	//ProductionTSF, ProductionBSF, RelationSF
 	float ptfactor, pbfactor, rfactor;
@@ -510,15 +515,18 @@ private:
 						pCell->vNoTerm[ntID]->pt = prod;
 
 						//Compute the vertical centroid according to the type of symbol
-						int cen, type = pSymSet->symType(clase[k]);
-						if (type == 0)       cen = cmy; //Normal
-						else if (type == 1) cen = asc; //Ascendant
-						else if (type == 2) cen = des; //Descendant
-						else                cen = (pCell->pCInfo->box.t + pCell->pCInfo->box.y)*0.5; //Middle point
-
-																	   //Vertical center
+						StdSymInfo sSymInfo = pSymSet->stdInfoClase(clase[k]);
+						double rel_h = sSymInfo.rel_t - sSymInfo.rel_y;
+						double ratio = (pCell->pCInfo->box.t - pCell->pCInfo->box.y) / rel_h;
+						double cen = pCell->pCInfo->box.y + (STD_CENTER_Y - sSymInfo.rel_y) * ratio;
+						//Vertical center
+						
 						pCell->vNoTerm[ntID]->lcen = cen;
 						pCell->vNoTerm[ntID]->rcen = cen;
+
+						pCell->vNoTerm[ntID]->lineTop = pCell->pCInfo->box.y;
+						pCell->vNoTerm[ntID]->lineBottom = pCell->pCInfo->box.t;
+						pCell->vNoTerm[ntID]->totalSymWidth = pCell->pCInfo->box.s - pCell->pCInfo->box.x;
 					}
 				}
 			}
@@ -558,12 +566,12 @@ private:
 			 if (grpen >= M->INF_DIST)
 				 return pCS;
 
-			 float cax = (pCA->pCInfo->box.x + pCA->pCInfo->box.s)*0.5;
+			/* float cax = (pCA->pCInfo->box.x + pCA->pCInfo->box.s)*0.5;
 			 float cay = (pCA->pCInfo->box.y + pCA->pCInfo->box.t)*0.5;
 			 float cbx = (pCB->pCInfo->box.x + pCB->pCInfo->box.s)*0.5;
 			 float cby = (pCB->pCInfo->box.y + pCB->pCInfo->box.t)*0.5;
 
-			 grpen = std::sqrt((cbx - cax)*(cbx - cax) + (cby - cay)*(cby - cay)) / M->NORMF;
+			 grpen = std::sqrt((cbx - cax)*(cbx - cax) + (cby - cay)*(cby - cay)) / M->NORMF;*/
 
 			 //Compute penalty
 			 grpen = std::max(-0.9f, grpen);
@@ -587,7 +595,13 @@ private:
 
 		 //Compute the (log)probability
 		 //prob = pbfactor * pd->prior + rfactor * log(prob * grpen) + A->pr + B->pr;
-		 prob = pbfactor *pd->prior + rfactor * log(prob * grpen)/* * (1.0 / tallaS)*/ + (A->pr + B->pr);
+		 prob = pbfactor *pd->prior + rfactor * log(prob) + dfactor * log(grpen)/* * (1.0 / tallaS)*/ + A->pr + B->pr;
+
+#ifdef LOG_COMPUTE
+		 HL_GENERAL_LOG("Production: " + pd->sS << "(" << tallaS << ") ---> " + pd->sA << "(" << tallaA << ") " + pd->sB << "(" << tallaB << ")");
+		 HL_GENERAL_LOG("(" << prob << ") " << "dist penalty: " << grpen << " ; A prob: " << A->pr << " ; B prob : " << B->pr);
+		 std::cout << std::endl;
+#endif // LOG_COMPUTE
 
 		 //Copute resulting region
 		 pCS->pCInfo->box.x = std::min(pCA->pCInfo->box.x, pCB->pCInfo->box.x);
@@ -680,6 +694,11 @@ private:
 					 break;
 				 }
 				 if (cdpr <= 0.0) continue;
+
+#ifdef LOG_COMPUTE
+				 std::string typeStr = pG->strType(pType);
+				 std::cout << "The space type : " << typeStr << "	; space prob : " << cdpr << std::endl;
+#endif // LOG_COMPUTE
 
 				 std::shared_ptr<CellCYK> pCell = fusion(M, pd, c1, pa, c2, pb, cdpr);
 

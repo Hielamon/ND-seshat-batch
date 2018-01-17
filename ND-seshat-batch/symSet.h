@@ -7,19 +7,35 @@
 #include <fstream>
 #include <string>
 
+#define STD_CENTER_Y 3.1
+#define STD_TOP_Y 0.0
+#define STD_BOTTOM_Y 5.0
+
+struct StdSymInfo
+{
+	std::string symStr;
+	double rel_y, rel_t;
+	double rel_w, rel_h;
+};
+
 class SymSet
 {
 	std::map<std::string, int> cl2key;
 	std::vector<std::string> key2cl;
-	std::vector<int> type;
+
+	//the information of standard symbol
+	std::vector<StdSymInfo> vSymStdInfo;
+
+	//std::vector<int> type;
 public:
 	SymSet(){}
 	~SymSet(){}
 
 	bool load(const std::string &filename)
 	{
-		if(!key2cl.empty()) key2cl.clear();
-		if (!type.empty()) type.clear();
+		if (!key2cl.empty()) key2cl.clear();
+		if (!vSymStdInfo.empty()) vSymStdInfo.clear();
+		//if (!type.empty()) type.clear();
 		if (!cl2key.empty()) cl2key.clear();
 
 		std::fstream fs(filename, std::ios::in);
@@ -31,24 +47,23 @@ public:
 
 		assert(claseNum >= 0);
 
-		char T;
+		//char T;
 		std::string clase;
+		double rel_y, rel_t, rel_w, rel_h;
 
 		for (int i = 0; i < claseNum; i++)
 		{
-			fs >> clase >> T;
+			fs >> rel_y >> rel_t >> rel_w >> rel_h >> clase;
 			key2cl.push_back(clase);
 			cl2key[clase] = i;
 
-			if (T == 'n')		type.push_back(0); //Centroid
-			else if (T == 'a')  type.push_back(1); //Ascender
-			else if (T == 'd')  type.push_back(2); //Descender
-			else if (T == 'm')  type.push_back(3); //Middle
-			else
-			{
-				fprintf(stderr, "SymSet: Error reading symbol types\n");
-				exit(-1);
-			}
+			StdSymInfo sym;
+			sym.rel_y = rel_y;
+			sym.rel_t = rel_t;
+			sym.rel_w = rel_w;
+			sym.rel_h = rel_h;
+			sym.symStr = clase;
+			vSymStdInfo.push_back(sym);
 		}
 
 		fs.close();
@@ -80,8 +95,9 @@ public:
 		return key2cl.size();
 	}
 
-	int symType(int k) 
+	StdSymInfo &stdInfoClase(int cIdx)
 	{
-		return type[k];
+		return vSymStdInfo[cIdx];
 	}
+
 };

@@ -33,8 +33,6 @@
 //#include "cellcyk.h"
 //#include "grammar.h"
 
-
-
 struct Hypothesis{
 	int clase; //If the hypothesis encodes a terminal symbols this is the class id (-1 otherwise)
 	double pr; //log-probability
@@ -54,10 +52,12 @@ struct Hypothesis{
 	std::shared_ptr<ProductionB> prod_sse;
 
 	//Vertical center left and right
-	int lcen, rcen;
+	double lcen, rcen;
+	//The top and bottom coordinate of current line
+	double lineTop, lineBottom;
 
-	//CellCYK *parent; //Parent cell
-	//int ntid;        //Nonterminal ID in parent
+	//the total width of all elements
+	double totalSymWidth;
 
 					 //Methods
 	Hypothesis(int c, double p, std::shared_ptr<CellInfo> pCInfo_)
@@ -65,8 +65,9 @@ struct Hypothesis{
 		pCInfo = pCInfo_;
 		clase = c;
 		pr = p;
-		//hright = hleft = NULL;
 		lcen = rcen = 0;
+		lineTop = lineBottom = 0;
+		totalSymWidth = 0;
 	}
 	~Hypothesis() {}
 
@@ -76,8 +77,13 @@ struct Hypothesis{
 		pr = H->pr;
 		hleft = H->hleft;
 		hright = H->hright;
+
 		lcen = H->lcen;
 		rcen = H->rcen;
+		lineBottom = H->lineBottom;
+		lineTop = H->lineTop;
+		totalSymWidth = H->totalSymWidth;
+
 		pCInfo = H->pCInfo;
 		prod = H->prod;
 		pt = H->pt;

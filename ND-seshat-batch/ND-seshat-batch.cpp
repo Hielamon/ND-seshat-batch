@@ -15,8 +15,8 @@
 
 std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
 std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
-bool IsShowSample = !false;
-bool saveResult = !true;
+bool IsShowSample = false;
+bool saveResult = true;
 bool withGT = true;
 bool symErrStop = false;
 

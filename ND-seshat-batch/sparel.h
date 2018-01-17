@@ -106,6 +106,12 @@ inline bool checkLeftRight(std::shared_ptr<Hypothesis> &h1, std::shared_ptr<Hypo
 	int lmbw = lmb->pCInfo->box.s - lmb->pCInfo->box.x;
 	int rminshift = rmaw * 0.2;
 
+	int sqrtID = 58;
+	if (rma->clase == sqrtID)
+	{
+		rminshift = rmaw;
+	}
+
 	if (lmb->pCInfo->box.x < rma->pCInfo->box.x + rminshift || lmb->pCInfo->box.s + rminshift <= rma->pCInfo->box.s)
 		return false;
 	else
@@ -213,31 +219,16 @@ public:
 
 		double score = 0.0;
 
-		bool haDigit = isDigit(ha), hbDigit = isDigit(hb);
-
-		//only conside the central coordinate, hsdd and hwdd specially used for digit situation
-		double hshift = 0.3, hsdd = 0.4;
-		int hw = 20, hwdd = 8;
 		int cenDiff = hb->lcen - ha->rcen;
-		double cenRatio = std::abs(cenDiff) / (0.5 * (aheight + bheight));
-		double cenScore;
-		if (haDigit && hbDigit)
-			cenScore = 1 / (1 + exp((cenRatio - hsdd) * hwdd));
-		else
-			cenScore = 1 / (1 + exp((cenRatio - hshift) * hw));
+		int tDiff = hb->lineTop - ha->lineTop;
+		int bDiff = hb->lineBottom - ha->lineBottom;
 
-		//TODO More info will be included
-		int tDiff = bbox.t - abox.t;
-		int yDiff = bbox.y - abox.y;
-		int xsDiff = bbox.x - abox.s;
+		double avgH = 0.5 * (aheight + bheight);
 
-		//Penalty for overlap
-		std::shared_ptr<Hypothesis> rma = rightmost(ha);
-		std::shared_ptr<Hypothesis> lmb = leftmost(hb);
-		double overlap = std::max(solape(rma, lmb), solape(lmb, rma));
-		double overlapPen = 1.0 / (1.0 + exp((overlap - 0.85) * 10));
+		double cenRatio = cenDiff / avgH;
 
-		score = cenScore*overlapPen;
+		double cenScore = 1.0 - std::abs(cenRatio);
+		score = cenScore;
 		return std::min(maxScore, score);
 	}
 
@@ -251,59 +242,14 @@ public:
 		if (abox.y > bbox.y || !checkLeftRight(ha, hb)) return 0.0;
 
 		double score = 0.0;
+		std::shared_ptr<Hypothesis> topb = topmost(hb);
 
-		bool haDigit = isDigit(ha), hbDigit = isDigit(hb);
+		int cenDiff = topb->lcen - ha->rcen;
 
-		int hbboxcen = (bbox.t + bbox.y) * 0.5;
-		int hbleftcen = hbboxcen;
-		//int hbleftcen = pType == Grammar::PBTYPE::SUB ? std::min(hb->lcen, hbboxcen) : std::max(hb->lcen, hbboxcen);
-		int cenDiff = ha->rcen - hbleftcen;
+		double avgH = 0.5 * (aheight + topb->pCInfo->box.t - topb->pCInfo->box.y);
 
-		double sshift = 0.2, sext = 0.05, ssdd = 0.5;
-		int sw = 10, swext = 30, swdd = 8;
-
-		int tDiff = bbox.t - abox.t;
-		int yDiff = bbox.y - abox.y;
-		double whR = std::min((bbox.s - bbox.x) / double((bbox.t - bbox.y)), 2.0) / 2.0;
-		double whR2 = std::min(std::max(0.1, std::sqrt(whR)), 0.2);
-		double minshiftR = 0.20 - std::sqrt(whR) * 0.05;
-
-		double cenRatio, cenScore;
-
-		tDiff = tDiff > 0 ? tDiff : 0;
-		if (haDigit)
-		{
-			cenRatio = -cenDiff / (0.5 * (aheight + bheight)) + tDiff * 0.1 / double(bheight);
-
-			if (yDiff < 2.0 * minshiftR * aheight)return 0.0;
-			cenScore = 1 / (1 + exp((-cenRatio + ssdd) * swdd));
-		}
-		else
-		{
-			cenRatio = -cenDiff / (0.5 * (aheight + bheight)) + tDiff * whR2 / double(bheight);
-
-			if (hbDigit)
-			{
-				if (yDiff < 0.1 * minshiftR * aheight)return 0.0;
-				cenScore = 1 / (1 + exp((-cenRatio + sext) * swext));
-			}
-			else
-			{
-				float extshiftR = std::max(0.1f, (1 - tDiff / float(aheight)));
-				if (yDiff < 1.0 * minshiftR * extshiftR * aheight)return 0.0;
-				cenScore = 1 / (1 + exp((-cenRatio + sshift) * sw));
-			}
-		}
-
-		// Add the penalty for distance in SUB
-		double xsDiffRatio = double(bbox.x - abox.s) / mue->RX;
-		double horizonPen = 1.0 / (1.0 + exp(-(xsDiffRatio - 1.5) * 10));
-
-		double ytDiffRatio = double(bbox.y - abox.t) / mue->RY;
-		double verticalPen = 1.0 / (1.0 + exp(-(xsDiffRatio - 1.0) * 10));
-
-		double penalty = std::max(horizonPen, verticalPen);
-		cenScore *= (1.0 - penalty * 0.5);
+		double cenRatio = cenDiff / avgH;
+		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));;
 
 		score = cenScore;
 		return std::min(maxScore, score);
@@ -319,59 +265,14 @@ public:
 		if (abox.t < bbox.t || !checkLeftRight(ha, hb)) return 0.0;
 
 		double score = 0.0;
+		std::shared_ptr<Hypothesis> bottomb = buttommost(hb);
 
-		bool haDigit = isDigit(ha), hbDigit = isDigit(hb);
+		int cenDiff = ha->rcen - bottomb->lcen;
 
-		int hbboxcen = (bbox.t + bbox.y) * 0.5;
-		int hbleftcen = hbboxcen;
-		//int hbleftcen = pType == Grammar::PBTYPE::SUB ? std::min(hb->lcen, hbboxcen) : std::max(hb->lcen, hbboxcen);
-		int cenDiff = ha->rcen - hbleftcen;
+		double avgH = 0.5 * (aheight + bottomb->pCInfo->box.t - bottomb->pCInfo->box.y);
 
-		double sshift = 0.2, sext = 0.05, ssdd = 0.5;
-		int sw = 10, swext = 30, swdd = 8;
-
-		int tDiff = bbox.t - abox.t;
-		int yDiff = bbox.y - abox.y;
-		double whR = std::min((bbox.s - bbox.x) / double((bbox.t - bbox.y)), 2.0) / 2.0;
-		double whR2 = std::min(std::max(0.1, std::sqrt(whR)), 0.2);
-		double minshiftR = 0.20 - std::sqrt(whR) * 0.05;
-
-		double cenRatio, cenScore;
-
-		yDiff = yDiff < 0 ? yDiff : 0;
-		if (haDigit)
-		{
-			cenRatio = cenDiff / (0.5 * (aheight + bheight)) - yDiff * 0.1 / double(bheight);
-
-			if (-tDiff < 2.0 * minshiftR * aheight)return 0.0;
-			cenScore = 1 / (1 + exp((-cenRatio + ssdd) * swdd));
-		}
-		else
-		{
-			cenRatio = cenDiff / (0.5 * (aheight + bheight)) - yDiff * whR2 / double(bheight);
-
-			if (hbDigit)
-			{
-				if (-tDiff < 0.1 * minshiftR * aheight)return 0.0;
-				cenScore = 1 / (1 + exp((-cenRatio + sext) * swext));
-			}
-			else
-			{
-				float extshiftR = std::max(0.1f, (1 + yDiff / float(aheight)));
-				if (-tDiff < 1.0 * minshiftR * extshiftR * aheight)return 0.0;
-				cenScore = 1 / (1 + exp((-cenRatio + sshift) * sw));
-			}
-		}
-
-		// Add the penalty for distance in SUB
-		double xsDiffRatio = double(bbox.x - abox.s) / mue->RX;
-		double horizonPen = 1.0 / (1.0 + exp(-(xsDiffRatio - 1.5) * 10));
-
-		double ytDiffRatio = double(bbox.y - abox.t) / mue->RY;
-		double verticalPen = 1.0 / (1.0 + exp(-(xsDiffRatio - 1.0) * 10));
-
-		double penalty = std::max(horizonPen, verticalPen);
-		cenScore *= (1.0 - penalty * 0.5);
+		double cenRatio = cenDiff / avgH;
+		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));;
 
 		score = cenScore;
 		return std::min(maxScore, score);

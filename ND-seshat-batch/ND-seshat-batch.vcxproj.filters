@@ -61,18 +61,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="_symSet.txt">
-      <Filter>Resource Files</Filter>
-    </Text>
     <Text Include="command.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <None Include="_sparels.gmm">
+    <None Include="_mathexp.gram">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="_mathexp.gram">
+    <None Include="Grammar\symbol_nd.types">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>

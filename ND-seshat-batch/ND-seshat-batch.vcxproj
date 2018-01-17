@@ -169,11 +169,10 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="command.txt" />
-    <Text Include="_symSet.txt" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Grammar\symbol_nd.types" />
     <None Include="_mathexp.gram" />
-    <None Include="_sparels.gmm" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

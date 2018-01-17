@@ -124,9 +124,9 @@ public:
 };
 
 inline void MergeRegionsCenter(std::shared_ptr<CellCYK>& pCA, int ntIDA,
-						 std::shared_ptr<CellCYK>& pCB, int ntIDB,
-						 std::shared_ptr<CellCYK>& pCS, int ntIDS,
-						 char merge_cen)
+							   std::shared_ptr<CellCYK>& pCB, int ntIDB,
+							   std::shared_ptr<CellCYK>& pCS, int ntIDS,
+							   char merge_cen)
 {
 	std::shared_ptr<Hypothesis> &a = pCA->vNoTerm[ntIDA];
 	std::shared_ptr<Hypothesis> &b = pCB->vNoTerm[ntIDB];
@@ -135,18 +135,30 @@ inline void MergeRegionsCenter(std::shared_ptr<CellCYK>& pCA, int ntIDA,
 	case 'A': //Data Hypothesis a
 		s->lcen = a->lcen;
 		s->rcen = a->rcen;
+		s->lineTop = a->lineTop;
+		s->lineBottom = a->lineBottom;
+		s->totalSymWidth = a->totalSymWidth;
 		break;
 	case 'B': //Data Hypothesis b
 		s->lcen = b->lcen;
 		s->rcen = b->rcen;
+		s->lineTop = b->lineTop;
+		s->lineBottom = b->lineBottom;
+		s->totalSymWidth = b->totalSymWidth;
 		break;
 	case 'C': //Center point
-		s->lcen = (pCA->pCInfo->box.y + pCA->pCInfo->box.t) / 2;
-		s->rcen = (pCB->pCInfo->box.y + pCB->pCInfo->box.t) / 2;
+		s->lcen = (pCA->pCInfo->box.y + pCA->pCInfo->box.t) * 0.5;
+		s->rcen = (pCB->pCInfo->box.y + pCB->pCInfo->box.t) * 0.5;
+		s->lineTop = std::min(a->lineTop, b->lineTop);
+		s->lineBottom = std::max(a->lineBottom, b->lineBottom);
+		s->totalSymWidth = std::max(a->totalSymWidth, b->totalSymWidth);
 		break;
 	case 'M': //Mean of both centers
-		s->lcen = (a->lcen + b->lcen) / 2; //a->lcen;
-		s->rcen = (a->rcen + b->rcen) / 2; //b->rcen;
+		s->lcen = (a->lcen * a->totalSymWidth + b->lcen *b->totalSymWidth) / (a->totalSymWidth + b->totalSymWidth); //a->lcen;
+		s->rcen = (a->rcen * a->totalSymWidth + b->rcen *b->totalSymWidth) / (a->totalSymWidth + b->totalSymWidth); //b->rcen;
+		s->lineTop = std::min(a->lineTop, b->lineTop);
+		s->lineBottom = std::max(a->lineBottom, b->lineBottom);
+		s->totalSymWidth = a->totalSymWidth + b->totalSymWidth;
 		break;
 	default:
 		HL_CERR("Error: Unrecognized option " << merge_cen << " in merge regions");
