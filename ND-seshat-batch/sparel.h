@@ -53,11 +53,12 @@ inline std::shared_ptr<Hypothesis> rightmost(std::shared_ptr<Hypothesis> &h) {
 	return izq->pCInfo->box.s > der->pCInfo->box.s ? izq : der;
 }
 
+//Spcecial with frac term
 inline std::shared_ptr<Hypothesis> topmost(std::shared_ptr<Hypothesis> &h) {
 	if (!h.use_count())
 		HL_CERR("Invalid Pointer");
 
-	if (h->pt.use_count())
+	if (h->pt.use_count() || (h->prod.use_count() && h->prod->tipo() == 'V'))
 		return h;
 
 	std::shared_ptr<Hypothesis> izq = topmost(h->hleft);
@@ -66,11 +67,12 @@ inline std::shared_ptr<Hypothesis> topmost(std::shared_ptr<Hypothesis> &h) {
 	return izq->pCInfo->box.y < der->pCInfo->box.y ? izq : der;
 }
 
+//Spcecial with frac term
 inline std::shared_ptr<Hypothesis> buttommost(std::shared_ptr<Hypothesis> &h) {
 	if (!h.use_count())
 		HL_CERR("Invalid Pointer");
 
-	if (h->pt.use_count())
+	if (h->pt.use_count() || (h->prod.use_count() && h->prod->tipo() == 'V'))
 		return h;
 
 	std::shared_ptr<Hypothesis> izq = buttommost(h->hleft);
@@ -78,6 +80,7 @@ inline std::shared_ptr<Hypothesis> buttommost(std::shared_ptr<Hypothesis> &h) {
 
 	return izq->pCInfo->box.t > der->pCInfo->box.t ? izq : der;
 }
+
 
 //Percentage of the area of region A that overlaps with region B
 inline float solape(std::shared_ptr<Hypothesis> &a, std::shared_ptr<Hypothesis> &b) {
@@ -109,13 +112,67 @@ inline bool checkLeftRight(std::shared_ptr<Hypothesis> &h1, std::shared_ptr<Hypo
 	int sqrtID = 58;
 	if (rma->clase == sqrtID)
 	{
-		rminshift = rmaw;
+		rminshift = rmaw - lmbw * 0.5;
 	}
 
 	if (lmb->pCInfo->box.x < rma->pCInfo->box.x + rminshift || lmb->pCInfo->box.s + rminshift <= rma->pCInfo->box.s)
 		return false;
 	else
 		return true;
+}
+
+//Check the upon symbols
+inline bool checkVerticalUpon(std::shared_ptr<Hypothesis> &ha, coo &bbox, double bcen)
+{
+	if (!ha.use_count())
+		HL_CERR("Invalid Pointer");
+
+	if (ha->pt.use_count())
+	{
+		coo &abox = ha->pCInfo->box;
+		int awidth = abox.s - abox.x, aheight = abox.t - abox.y;
+
+		if ((abox.x < bbox.x && (bbox.x - abox.x) > 0.5 * awidth) ||
+			(abox.s > bbox.s && (abox.s - bbox.s) > 0.5 * awidth))
+		{
+			double downRatio = double(abox.t - bcen) / aheight;
+			if (downRatio > 0.3) return false;
+		}
+
+		return true;
+	}
+
+	bool lcheck = checkVerticalUpon(ha->hleft, bbox, bcen);
+	bool rcheck = checkVerticalUpon(ha->hright, bbox, bcen);
+
+	return lcheck && rcheck;
+}
+
+//Check the down symbols
+inline bool checkVerticalDown(std::shared_ptr<Hypothesis> &hb, coo &abox, double acen)
+{
+	if (!hb.use_count())
+		HL_CERR("Invalid Pointer");
+
+	if (hb->pt.use_count())
+	{
+		coo &bbox = hb->pCInfo->box;
+		int bwidth = bbox.s - bbox.x, bheight = bbox.t - bbox.y;
+
+		if ((bbox.x < abox.x && (abox.x - bbox.x) > 0.5 * bwidth) ||
+			(bbox.s > abox.s && (bbox.s - abox.s) > 0.5 * bwidth))
+		{
+			double upRatio = double(acen - bbox.y) / bheight;
+			if (upRatio > 0.3) return false;
+		}
+
+		return true;
+	}
+
+	bool lcheck = checkVerticalDown(hb->hleft, abox, acen);
+	bool rcheck = checkVerticalDown(hb->hright, abox, acen);
+
+	return lcheck && rcheck;
 }
 
 inline bool isDigit(std::shared_ptr<Hypothesis> &H)
@@ -252,6 +309,17 @@ public:
 		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));;
 
 		score = cenScore;
+
+		// Add the penalty for distance in SUB
+		double xsDiff = double(bbox.x - abox.s) - mue->RX;
+		double ytDiff = double(bbox.y - abox.t) - mue->RY;
+		double penRatio = std::max(xsDiff, ytDiff) / avgH;
+		double verticalPen = 0.0;
+		if (penRatio > 0)
+			verticalPen = 1.0 / (1.0 + exp(-(penRatio - 0.2) * 15));
+
+		score -= (verticalPen * 0.5);
+
 		return std::min(maxScore, score);
 	}
 
@@ -275,27 +343,52 @@ public:
 		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));;
 
 		score = cenScore;
+
+		// Add the penalty for distance in SUP
+		double xsDiff = double(bbox.x - abox.s) - mue->RX;
+		double ytDiff = double(abox.y - bbox.t) - mue->RY;
+		double penRatio = std::max(xsDiff, ytDiff) / avgH;
+		double verticalPen = 0.0;
+		if (penRatio > 0)
+			verticalPen = 1.0 / (1.0 + exp(-(penRatio - 0.2) * 15));
+
+		score -= (verticalPen * 0.5);
+
 		return std::min(maxScore, score);
 	}
 
 	double getVerProb(std::shared_ptr<Hypothesis> &ha, std::shared_ptr<Hypothesis> &hb, bool strict = false)
 	{
+		coo &abox = ha->pCInfo->box, &bbox = hb->pCInfo->box;
+
 		//Pruning
-		if (hb->pCInfo->box.y < (ha->pCInfo->box.y + ha->pCInfo->box.t) / 2
-			|| abs((ha->pCInfo->box.x + ha->pCInfo->box.s) / 2 - (hb->pCInfo->box.x + hb->pCInfo->box.s) / 2) > 2.5*mue->RX
-			|| (hb->pCInfo->box.x > ha->pCInfo->box.s || hb->pCInfo->box.s < ha->pCInfo->box.x))
+		if (bbox.y < (abox.y + abox.t) / 2
+			|| abs((abox.x + abox.s) / 2 - (bbox.x + bbox.s) / 2) > 2.5*mue->RX
+			|| (bbox.x > abox.s || bbox.s < abox.x))
 			return 0.0;
 
-		if (!strict)
-			return compute_prob(ha, hb, 3);
+		//Check the position relationship of outer lines
+		double bcen = (hb->lcen + hb->rcen)*0.5;
+		double acen = (ha->lcen + ha->rcen)*0.5;
+		if (!checkVerticalUpon(ha, bbox, bcen) || !checkVerticalDown(hb, abox, acen))
+			return 0.0;
 
-		//Penalty for strict relationships
-		float penalty = abs(ha->pCInfo->box.x - hb->pCInfo->box.x) / (3.0*mue->RX)
-			+ abs(ha->pCInfo->box.s - hb->pCInfo->box.s) / (3.0*mue->RX);
+		double score = 0.0;
 
-		if (penalty > 0.95) penalty = 0.95;
+		score = compute_prob(ha, hb, 3);
 
-		return (1.0 - penalty) * compute_prob(ha, hb, 3);
+		if (strict)
+		{
+			//Penalty for strict relationships
+			float penalty = abs(abox.x - bbox.x) / (3.0*mue->RX)
+				+ abs(abox.s - bbox.s) / (3.0*mue->RX);
+
+			if (penalty > 0.95) penalty = 0.95;
+
+			score *= (1 - penalty);
+		}
+
+		return score;
 	}
 
 	double getInsProb(std::shared_ptr<Hypothesis> &ha, std::shared_ptr<Hypothesis> &hb)
