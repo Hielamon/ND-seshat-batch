@@ -246,9 +246,11 @@ public:
 		}
 
 		fs.close();
+
+		return true;
 	}
 
-	void ShowSample(const std::string &windowName = "Sample")
+	int ShowSample(const std::string &windowName = "Sample")
 	{
 		if (Img.empty())
 			HL_CERR("There is not a image loaded");
@@ -286,7 +288,7 @@ public:
 			cv::putText(showImg, ioStr.str(), scaledROI.tl() - cv::Point(0, 2 * scale), cv::HersheyFonts::FONT_HERSHEY_COMPLEX, 0.8, color);
 		});
 		resizeShow(windowName, showImg);
-		cv::waitKey(0);
+		return cv::waitKey(0);
 	}
 
 	void  detRefSymbol()
@@ -654,5 +656,7 @@ private:
 			seg.vTop[i] = seg.ROI.y + (STD_TOP_Y - sSymInfo.rel_y) * ratio;
 			seg.vBottom[i] = seg.ROI.y + (STD_BOTTOM_Y - sSymInfo.rel_y) * ratio;
 		}
+
+		return true;
 	}
 };

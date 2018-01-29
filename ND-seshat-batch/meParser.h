@@ -205,7 +205,7 @@ public:
 		//ptfactor = 0.37846575;
 		ptfactor = 0.0;
 		//pbfactor = 0.14864657;
-		pbfactor = 0.0;
+		pbfactor = 1.0;
 
 		//clusterF = 0.15680604;
 		clusterF = 1;
@@ -595,7 +595,27 @@ private:
 
 		 //Compute the (log)probability
 		 //prob = pbfactor * pd->prior + rfactor * log(prob * grpen) + A->pr + B->pr;
-		 prob = pbfactor *pd->prior + rfactor * log(prob) + dfactor * log(grpen)/* * (1.0 / tallaS)*/ + A->pr + B->pr;
+		 double tmpProb = prob;
+		 double pdPrior = pd->prior;
+		 if (pdPrior > 0.0)
+		 {
+			 char typeC = pd->tipo();
+			 //char allType[7] = { 'H', 'B', 'P', 'V', 'e', 'I', 'M' };
+			 char allType[5] = { 'H', 'B', 'P', 'V', 'e' };
+			 for (size_t i = 0; i < 5; i++)
+			 {
+				 if (typeC == allType[i]) continue;
+				 double cdpr = pSPR->getWithType(A, B, allType[i]);
+				 if (cdpr > prob)
+				 {
+					 pdPrior = 0.0;
+					 break;
+				 }
+			 }
+	 }
+
+
+		 prob = pbfactor * pdPrior + rfactor * log(prob) + dfactor * log(grpen)/* * (1.0 / tallaS)*/ + A->pr + B->pr;
 
 #ifdef LOG_COMPUTE
 		 HL_GENERAL_LOG("Production: " + pd->sS << "(" << tallaS << ") ---> " + pd->sA << "(" << tallaA << ") " + pd->sB << "(" << tallaB << ")");

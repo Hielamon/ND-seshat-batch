@@ -1,19 +1,19 @@
 /*Copyright 2014 Francisco Alvaro
 
- This file is part of SESHAT.
+This file is part of SESHAT.
 
-    SESHAT is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+SESHAT is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    SESHAT is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+SESHAT is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with SESHAT.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License
+along with SESHAT.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef _LOGSPACE_
 #define _LOGSPACE_
@@ -96,7 +96,12 @@ class LogSpace {
 		if (U_V) { //Direction 'Up' (U)
 			while (i<N && data[i]->pCInfo->box.x <= ss) {
 				if (data[i]->pCInfo->box.t <= st && data[i]->pCInfo->box.t >= sy && data[i]->pCInfo->box.s <= ss) {
-					if (data[i]->pCInfo->box.t < cd->pCInfo->box.y)
+
+					//For checking in the x-coordinate
+					bool checkRange = data[i]->pCInfo->box.s < cd->pCInfo->box.s &&
+						data[i]->pCInfo->box.x > cd->pCInfo->box.s;
+
+					if (data[i]->pCInfo->box.t < cd->pCInfo->box.y && checkRange)
 						sy = std::max(std::max(data[i]->pCInfo->box.y, data[i]->pCInfo->box.t - RY), sy);
 					set.push_back(data[i]);
 				}
@@ -106,7 +111,12 @@ class LogSpace {
 		else { //Direction 'Down' (V)
 			while (i<N && data[i]->pCInfo->box.x <= ss) {
 				if (data[i]->pCInfo->box.y <= st && data[i]->pCInfo->box.y >= sy && data[i]->pCInfo->box.s <= ss) {
-					if (data[i]->pCInfo->box.y > cd->pCInfo->box.t)
+
+					//For checking in the x-coordinate
+					bool checkRange = data[i]->pCInfo->box.s < cd->pCInfo->box.s &&
+						data[i]->pCInfo->box.x > cd->pCInfo->box.s;
+
+					if (data[i]->pCInfo->box.y > cd->pCInfo->box.t && checkRange)
 						st = std::min(std::min(data[i]->pCInfo->box.t, data[i]->pCInfo->box.y + RY), st);
 					set.push_back(data[i]);
 				}
@@ -130,8 +140,16 @@ class LogSpace {
 		//Retrieve the compatible regions
 		while (i<N && data[i]->pCInfo->box.x <= ss) {
 			if (data[i]->pCInfo->box.y <= st && data[i]->pCInfo->box.t >= sy) {
-				if (data[i]->pCInfo->box.x > cd->pCInfo->box.s)
+
+				//for checking the overlap in y-coordinate
+				int tly = std::max(data[i]->pCInfo->box.y, cd->pCInfo->box.y);
+				int bry = std::min(data[i]->pCInfo->box.t, cd->pCInfo->box.t);
+
+				if (data[i]->pCInfo->box.x > cd->pCInfo->box.s && bry > tly)
+				{
+					//ss = std::min(data[i]->pCInfo->box.s, ss);
 					ss = std::min(std::min(data[i]->pCInfo->box.s, data[i]->pCInfo->box.x + RX), ss);
+				}
 				set.push_back(data[i]);
 			}
 			i++;
@@ -164,11 +182,11 @@ public:
 
 		//Set the region to search
 		sx = std::max(pCell->pCInfo->box.x + 1, pCell->pCInfo->box.s - (int)(RX * 2));  // (sx,sy)------
-		ss = pCell->pCInfo->box.s + RX * 8;                    //  ------------
-		sy = pCell->pCInfo->box.y - RY;                      //  ------------
-		st = pCell->pCInfo->box.t + RY;                      //  ------(ss,st)
+		ss = pCell->pCInfo->box.s + RX * 10;                    //  ------------
+		sy = pCell->pCInfo->box.y - 2 * RY;                      //  ------------
+		st = pCell->pCInfo->box.t + 2 * RY;                      //  ------(ss,st)
 
-											 //Retrieve the regions
+																 //Retrieve the regions
 		bsearchHBP(sx, sy, ss, st, set, pCell);
 	}
 
@@ -180,7 +198,6 @@ public:
 		//Set the region to search
 		sx = pCell->pCInfo->box.x - 2 * RX;
 		ss = pCell->pCInfo->box.s + 2 * RX;
-		
 		sy = std::max(pCell->pCInfo->box.t - RY, pCell->pCInfo->box.y + 1);
 		st = pCell->pCInfo->box.t + RY * 3;
 
@@ -199,7 +216,6 @@ public:
 		//Set the region to search
 		sx = pCell->pCInfo->box.x - 2 * RX;
 		ss = pCell->pCInfo->box.s + 2 * RX;
-		
 		sy = pCell->pCInfo->box.y - RY * 3;
 		st = std::min(pCell->pCInfo->box.y + RY, pCell->pCInfo->box.t - 1);
 
@@ -215,11 +231,12 @@ public:
 		//Set the region to search
 		sx = pCell->pCInfo->box.x + 1;  // (sx,sy)------
 		ss = pCell->pCInfo->box.s + RX; //  ------------
+										//ss = pCell->pCInfo->box.s + 1; //  ------------
 		sy = pCell->pCInfo->box.y + 1;  //  ------------
-		//sy = pCell->pCInfo->box.y - RY;  //  ------------
+										//sy = pCell->pCInfo->box.y - 2*RY;  //  ------------
 		st = pCell->pCInfo->box.t + RY; //  ------(ss,st)
 
-						//Retrieve the regions
+										//Retrieve the regions
 		bsearch(sx, sy, ss, st, set);
 	}
 
@@ -234,7 +251,7 @@ public:
 		sy = pCell->pCInfo->box.y - RY;              //  ------------
 		st = std::min(pCell->pCInfo->box.y + 2 * RY, pCell->pCInfo->box.t); //  ------(ss,st)
 
-									   //Retrieve the regions
+																			//Retrieve the regions
 		bsearch(sx, sy, ss, st, set);
 	}
 
@@ -246,8 +263,6 @@ public:
 		//Set the region to search
 		sx = pCell->pCInfo->box.x - 1;      // (sx,sy)------
 		ss = pCell->pCInfo->box.x + 1;      //  ------------
-		//sx = pCell->pCInfo->box.x - RX;      // (sx,sy)------
-		//ss = pCell->pCInfo->box.x + RY;      //  ------------
 		sy = pCell->pCInfo->box.y - RY;   //  ------------
 		st = pCell->pCInfo->box.t + RY;   //  ------(ss,st)
 

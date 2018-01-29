@@ -1,19 +1,19 @@
 /*Copyright 2014 Francisco Alvaro
 
- This file is part of SESHAT.
+This file is part of SESHAT.
 
-    SESHAT is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+SESHAT is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-    SESHAT is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+SESHAT is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-    You should have received a copy of the GNU General Public License
-    along with SESHAT.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU General Public License
+along with SESHAT.  If not, see <http://www.gnu.org/licenses/>.
 */
 #ifndef _CELLCYK_
 #define _CELLCYK_
@@ -24,7 +24,7 @@
 #include "cellInfo.h"
 
 
-class CellCYK{
+class CellCYK {
 public:
 	//Cell info , include bounding-box, segMask, and talla
 	std::shared_ptr<CellInfo> pCInfo;
@@ -120,7 +120,7 @@ public:
 		return true;
 	}
 
-  
+
 };
 
 inline void MergeRegionsCenter(std::shared_ptr<CellCYK>& pCA, int ntIDA,

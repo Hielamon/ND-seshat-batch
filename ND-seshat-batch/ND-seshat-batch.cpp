@@ -15,6 +15,7 @@
 
 std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
 std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
+std::string specialFileList = "specialFile.txt";
 bool IsShowSample = false;
 bool saveResult = true;
 bool withGT = true;
@@ -81,6 +82,7 @@ bool checkLatexNew(std::string &latex1, std::string &latex2)
 		{ "{\\log}", "log" },
 		{ "\\int", "int" },
 		{ "\\log", "log" },
+		{ "{log}", "log" },
 		{ "\\\\", "\\" },
 		{ "\\{", "{" },
 		{ "\\}", "}" },
@@ -194,6 +196,14 @@ int main(int argc, char *argv[])
 	if (!fs.is_open())
 		HL_CERR("Failed to open the file " << batchFileList);
 
+	std::fstream sfs;
+	if (IsShowSample)
+	{
+		sfs.open(specialFileList, std::ios::out);
+		if (!sfs.is_open())
+			HL_CERR("Failed to open the file " << specialFileList);
+	}
+
 	std::string sampleFileName, line, gtLatex, imgPath;
 	std::vector<std::string> vSymErrorNames;
 	std::vector<std::string> vParseErrorNames, vParseErrorLatexs, vParseErrorGTLatexs;
@@ -249,7 +259,16 @@ int main(int argc, char *argv[])
 				pureFileName.assign(sampleFileName.begin() + pos, sampleFileName.end() - 4);
 			if (IsShowSample)
 			{
-				sample->ShowSample(pureFileName);
+				int keyValue = sample->ShowSample(pureFileName);
+				switch (keyValue)
+				{
+				case 's':
+					sfs << sampleFileName << std::endl;
+					HL_GENERAL_LOG(sampleFileName << " is save to file " << specialFileList);
+					break;
+				default:
+					break;
+				}
 				cv::destroyWindow(pureFileName);
 			}
 
@@ -265,6 +284,10 @@ int main(int argc, char *argv[])
 	}
 
 	fs.close();
+
+	if (IsShowSample)
+		sfs.close();
+
 	int nsErr = vSymErrorNames.size(), npErr = vParseErrorNames.size(), ntrue = vTrueNames.size();
 	std::cout << "Total samples : " << nsErr + npErr + ntrue << std::endl;
 

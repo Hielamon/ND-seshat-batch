@@ -33,13 +33,13 @@
 //#include "cellcyk.h"
 //#include "grammar.h"
 
-struct Hypothesis{
+struct Hypothesis {
 	int clase; //If the hypothesis encodes a terminal symbols this is the class id (-1 otherwise)
 	double pr; //log-probability
 
-	//Cell info , include bounding-box, segMask, and talla
+			   //Cell info , include bounding-box, segMask, and talla
 	std::shared_ptr<CellInfo> pCInfo;
-	
+
 	//References to left-child (hi) and right-child (hd) to create the derivation tree
 	std::shared_ptr<Hypothesis> hleft, hright;
 
@@ -59,7 +59,7 @@ struct Hypothesis{
 	//the total width of all elements
 	double totalSymWidth;
 
-					 //Methods
+	//Methods
 	Hypothesis(int c, double p, std::shared_ptr<CellInfo> pCInfo_)
 	{
 		pCInfo = pCInfo_;
