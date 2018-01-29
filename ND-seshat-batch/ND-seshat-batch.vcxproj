@@ -158,6 +158,7 @@
     <ClInclude Include="logspace.h" />
     <ClInclude Include="meParser.h" />
     <ClInclude Include="production.h" />
+    <ClInclude Include="relationSet.h" />
     <ClInclude Include="sample.h" />
     <ClInclude Include="sparel.h" />
     <ClInclude Include="symSet.h" />

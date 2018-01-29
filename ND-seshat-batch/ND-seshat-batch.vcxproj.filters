@@ -51,6 +51,9 @@
     <ClInclude Include="tablecyk.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="relationSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="gmm.cc">
