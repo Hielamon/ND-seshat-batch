@@ -7,6 +7,7 @@
 #include "tablecyk.h"
 #include "logspace.h"
 #include "sparel.h"
+#include "relationSet.h"
 
 #define NB 1
 
@@ -129,7 +130,6 @@ inline void PrintLatexToString(std::shared_ptr<Hypothesis> &H, std::shared_ptr<G
 
 				PrintLatexToString(H->hright, pG, result);
 				if (H->hright->clase < 0)
-
 					while (outStr[i] != '$' || outStr[i + 1] != '1')
 					{
 						result << outStr[i];
@@ -194,6 +194,80 @@ inline void drawCellWithColor(cv::Mat &src, std::shared_ptr<CellCYK> &pCell, cv:
 	cv::rectangle(src, roi, color, 3);
 }
 
+inline void PrintRelationSet(std::shared_ptr<Hypothesis> &H, std::shared_ptr<RelationSet> &pRelSet) {
+	if (!H.use_count())
+		HL_CERR("The Null Pointer");
+
+	if (!H->pt.use_count())
+	{
+		char type = H->prod->tipo();
+		RelationType relType;
+		std::shared_ptr<Hypothesis> &Hleft = H->hleft, Hright = H->hright;
+		std::shared_ptr<Hypothesis> h1, h2;
+		switch (type)
+		{
+		case 'H':
+			relType = RelationType::H;
+			h1 = Hleft->hRight.use_count() == 0 ? Hleft : Hleft->hRight;
+			h2 = Hright->hLeft.use_count() == 0 ? Hright : Hright->hLeft;
+			break;
+		case 'B':
+			relType = RelationType::SUB;
+			h1 = Hleft->hRight.use_count() == 0 ? Hleft : Hleft->hRight;
+			h2 = Hright->hLeft.use_count() == 0 ? Hright : Hright->hLeft;
+			break;
+		case 'P':
+			relType = RelationType::SUP;
+			h1 = Hleft->hRight.use_count() == 0 ? Hleft : Hleft->hRight;
+			h2 = Hright->hLeft.use_count() == 0 ? Hright : Hright->hLeft;
+			break;
+		case 'V':
+			relType = RelationType::V;
+			h1 = Hleft->hBottom.use_count() == 0 ? Hleft : Hleft->hBottom;
+			h2 = Hright->hTop.use_count() == 0 ? Hright : Hright->hTop;
+			break;
+		case 'e':
+			relType = RelationType::V;
+			h1 = Hleft->hBottom.use_count() == 0 ? Hleft : Hleft->hBottom;
+			h2 = Hright->hTop.use_count() == 0 ? Hright : Hright->hTop;
+			break;
+		case 'I':
+			relType = RelationType::INS;
+			h1 = Hleft->hRight.use_count() == 0 ? Hleft : Hleft->hRight;
+			h2 = Hright->hRight.use_count() == 0 ? Hright : Hright->hRight;
+			break;
+		case 'M':
+			relType = RelationType::MROOT;
+			h1 = Hleft->hRight.use_count() == 0 ? Hleft : Hleft->hRight;
+			h2 = Hright->hLeft.use_count() == 0 ? Hright : Hright->hLeft;
+			break;
+		case 'S':
+			relType = RelationType::SUP;
+			h1 = Hleft->hleft->hRight.use_count() == 0 ? Hleft->hleft : Hleft->hleft->hRight;
+			h2 = Hright->hLeft.use_count() == 0 ? Hright : Hright->hLeft;
+			break;
+		default:
+			break;
+		}
+
+		if (h1->pt.use_count() == 0 || h2->pt.use_count() == 0)
+			HL_CERR("The impossible case happened, the relation input must be single symbol");
+
+		coo &box1 = h1->pCInfo->box, &box2 = h2->pCInfo->box;
+		RelationUnit relUnit;
+		relUnit.relType = relType;
+		relUnit.ROI1 = cv::Rect(box1.x, box1.y, box1.s - box1.x, box1.t - box1.y);
+		relUnit.ROI2 = cv::Rect(box2.x, box2.y, box2.s - box2.x, box2.t - box2.y);
+		pRelSet->addRelation(relUnit);
+		PrintRelationSet(Hleft, pRelSet);
+		PrintRelationSet(Hright, pRelSet);
+	}
+	else {
+		return;
+	}
+	//std::cout << std::endl;
+}
+
 class MeParser
 {
 public:
@@ -231,7 +305,7 @@ public:
 
 	std::string parse(std::shared_ptr<Sample> &M)
 	{
-		std::shared_ptr<TableCYK> tcyk = parseCore(M);
+		parseCore(M);
 
 		std::shared_ptr<Hypothesis> mlh;
 		std::shared_ptr<CellCYK> mlc;
@@ -260,10 +334,33 @@ public:
 		return latexStr;
 	}
 
+	std::shared_ptr<RelationSet> getRelationSet()
+	{
+		if (tcyk.use_count() == 0) return nullptr;
+
+		std::shared_ptr<RelationSet> relSet = std::make_shared<RelationSet>();
+
+		std::shared_ptr<Hypothesis> mlh;
+		std::shared_ptr<CellCYK> mlc;
+		int mlhIdx;
+		tcyk->getMLInfo(mlh, mlc, mlhIdx);
+
+		assert(mlh == mlc->vNoTerm[mlhIdx]);
+
+		if (!mlh.use_count() || !mlc.use_count())
+			HL_CERR("\nNo hypothesis found!!");
+
+		PrintRelationSet(mlh, relSet);
+		return relSet;
+	}
+
+private:
 	std::shared_ptr<SymSet> pSymSet;
 	std::shared_ptr<Grammar> pG;
 	std::shared_ptr<GMM> pGMM;
 	std::shared_ptr<SpaRel> pSPR;
+
+	std::shared_ptr<TableCYK> tcyk;
 
 	//Penalty parameters for distance
 	//ClusterF 
@@ -274,8 +371,6 @@ public:
 
 	//SymbolSF, InsPenalty
 	float qfactor, InsPen;
-
-private:
 
 	std::shared_ptr<TableCYK> parseCore(std::shared_ptr<Sample> &M)
 	{
@@ -288,7 +383,7 @@ private:
 		int K = pG->noTerminales.size();
 
 		//Cocke-Younger-Kasami (CYK) algorithm for 2D-SCFG
-		std::shared_ptr<TableCYK> tcyk = std::make_shared<TableCYK>(N, K);
+		tcyk = std::make_shared<TableCYK>(N, K);
 
 		std::cout << "CYK table initialization:" << std::endl;
 		initCYKterms(M, *tcyk, N, K);
@@ -793,6 +888,8 @@ private:
 				pCell->vNoTerm[ps]->prod = pd;
 				//Save the production of the superscript in order to recover it when printing the used productions
 				pCell->vNoTerm[ps]->prod_sse = c2->vNoTerm[pb]->prod;
+
+				MergeRegionsCenter(c1, pa, c2, pb, pCell, ps, pd->merge_cen);
 
 				tcyk.add(talla, pCell, ps, pG->esInit);
 			}

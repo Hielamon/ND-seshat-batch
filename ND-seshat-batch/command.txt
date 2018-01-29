@@ -6,6 +6,9 @@
 ..\x64\Release\ND-seshat-batch.exe -showSample no -save yes -withGT yes
 
 ..\x64\Release\ND-seshat-batch.exe -batch_file Result\parseErrorSampleList.txt -showSample yes -save no -withGT yes
-..\x64\Release\ND-seshat-batch.exe -batch_file Result4\symErrorSampleList.txt -showSample yes -save no -withGT yes -symErrStop yes
+..\x64\Release\ND-seshat-batch.exe -batch_file Result\parseErrorSampleList.txt -showSample yes -save no -withGT yes -fortrain yes
+..\x64\Release\ND-seshat-batch.exe -batch_file Result4\symErrorSampleList.txt -showSample yes -save no -withGT yes -symErrStop yes 
 
 ..\x64\Release\ND-seshat-batch.exe -showSample no -save yes -withGT yes -batch_file D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\filename.txt
+..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -withGT yes -batch_file D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\filename.txt
+..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -withGT yes -batch_file specialFile_bak.txt

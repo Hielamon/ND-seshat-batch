@@ -14,13 +14,17 @@
 #include "meParser.h"
 #include "relationSet.h"
 
-std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
+std::string batchFileList = "specialFile_bak.txt";
+//std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
 std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
 std::string specialFileList = "specialFile.txt";
-bool IsShowSample = false;
+bool IsShowSample = !false;
 bool saveResult = true;
 bool withGT = true;
 bool symErrStop = false;
+
+bool forTrain = !false;
+std::string trainDir = "train";
 
 inline bool getSymbolMap(const std::string &filename, std::map<std::string, int> &symbolMap)
 {
@@ -164,6 +168,14 @@ int parseCmdArgs(int argc, char** argv)
 				symErrStop = false;
 			i++;
 		}
+		else if (std::string(argv[i]) == "-fortrain")
+		{
+			if (std::string(argv[i + 1]) == "yes")
+				forTrain = true;
+			else if (std::string(argv[i + 1]) == "no")
+				forTrain = false;
+			i++;
+		}
 		else
 		{
 			return 0;
@@ -198,7 +210,7 @@ int main(int argc, char *argv[])
 		HL_CERR("Failed to open the file " << batchFileList);
 
 	std::fstream sfs;
-	if (IsShowSample)
+	if (IsShowSample || forTrain)
 	{
 		sfs.open(specialFileList, std::ios::out);
 		if (!sfs.is_open())
@@ -213,7 +225,8 @@ int main(int argc, char *argv[])
 	std::string sepLine(120, '-');
 
 	std::stringstream ioStr;
-	while (std::getline(fs, line) && !line.empty())
+	bool stop = false;
+	while (std::getline(fs, line) && !line.empty() && !stop)
 	{
 		std::cout << "\n\n" << sepLine << std::endl;
 		ioStr.clear();
@@ -224,6 +237,13 @@ int main(int argc, char *argv[])
 		if (sample->LoadFromUnifromFile(sampleFileName, gtLatex, imgPath, symbolMap, withGT))
 		{
 			std::string latexResult = meparser.parse(sample);
+
+			size_t pos = sampleFileName.rfind("\\");
+			std::string pureFileName;
+			if (pos == std::string::npos)
+				pureFileName.assign(sampleFileName.begin(), sampleFileName.end() - 4);
+			else
+				pureFileName.assign(sampleFileName.begin() + pos, sampleFileName.end() - 4);
 
 			if (gtLatex.empty())
 			{
@@ -240,6 +260,28 @@ int main(int argc, char *argv[])
 					vTrueLatexs.push_back(latexResult);
 					vTrueGTLatexs.push_back(gtLatex);
 					std::cout << "True Sample" << std::endl;
+
+					if (forTrain)
+					{
+						std::shared_ptr<RelationSet> pRelSet = meparser.getRelationSet();
+						if (pRelSet.use_count() != 0)
+						{
+							int keyValue = pRelSet->ShowInImage(sample->getRGBImg(), pureFileName);
+							switch (keyValue)
+							{
+							case 's':
+								sfs << sampleFileName << std::endl;
+								HL_GENERAL_LOG(sampleFileName << " is save to file " << specialFileList);
+								break;
+							case 27:
+								stop = true;
+								break;
+							default:
+								break;
+							}
+							cv::destroyWindow(pureFileName);
+						}
+					}
 				}
 				else
 				{
@@ -252,12 +294,7 @@ int main(int argc, char *argv[])
 				std::cout << "GT Latex : " << gtLatex << std::endl;
 			}
 			std::cout << "Image Path : " << imgPath << std::endl;
-			size_t pos = sampleFileName.rfind("\\");
-			std::string pureFileName;
-			if (pos == std::string::npos)
-				pureFileName.assign(sampleFileName.begin(), sampleFileName.end() - 4);
-			else
-				pureFileName.assign(sampleFileName.begin() + pos, sampleFileName.end() - 4);
+			
 			if (IsShowSample)
 			{
 				int keyValue = sample->ShowSample(pureFileName);
@@ -266,6 +303,9 @@ int main(int argc, char *argv[])
 				case 's':
 					sfs << sampleFileName << std::endl;
 					HL_GENERAL_LOG(sampleFileName << " is save to file " << specialFileList);
+					break;
+				case 27:
+					stop = true;
 					break;
 				default:
 					break;
@@ -286,7 +326,7 @@ int main(int argc, char *argv[])
 
 	fs.close();
 
-	if (IsShowSample)
+	if (IsShowSample || forTrain)
 		sfs.close();
 
 	int nsErr = vSymErrorNames.size(), npErr = vParseErrorNames.size(), ntrue = vTrueNames.size();

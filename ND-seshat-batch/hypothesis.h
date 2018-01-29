@@ -43,6 +43,10 @@ struct Hypothesis {
 	//References to left-child (hi) and right-child (hd) to create the derivation tree
 	std::shared_ptr<Hypothesis> hleft, hright;
 
+	//These three hypothesis is used for extract the space relation set
+	//The hTop and hBottom are used for decide the vertial sapce-relationship
+	std::shared_ptr<Hypothesis> hTop, hBottom, hRight, hLeft;
+
 	//The production used to create this hypothesis (either Binary or terminal)
 	std::shared_ptr<ProductionB> prod;
 	std::shared_ptr<ProductionT> pt;
