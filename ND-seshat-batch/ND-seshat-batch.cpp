@@ -16,14 +16,17 @@
 
 std::string batchFileList = "specialFile_bak.txt";
 //std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
-std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
+std::string VOC2007CharMapFName = "VOC2007/charmap_.txt";
+//std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
 std::string specialFileList = "specialFile.txt";
 bool IsShowSample = !false;
 bool saveResult = true;
 bool withGT = true;
 bool symErrStop = false;
 
-bool forTrain = !false;
+bool forTrain = false;
+bool showGraph = true;
+bool saveGraph = true;
 std::string trainDir = "train";
 
 inline bool getSymbolMap(const std::string &filename, std::map<std::string, int> &symbolMap)
@@ -50,30 +53,6 @@ inline bool getSymbolMap(const std::string &filename, std::map<std::string, int>
 }
 
 bool checkLatex(std::string &latex1, std::string &latex2)
-{
-	int i = 0, j = 0;
-	while (i < latex1.size() && j < latex2.size())
-	{
-		if (latex1[i] != ' ' && latex2[j] != ' ')
-		{
-			if (latex1[i] != latex2[j]) break;
-			i++;
-			j++;
-		}
-		else
-		{
-			if (latex1[i] == ' ') i++;
-			if (latex2[j] == ' ') j++;
-		}
-	}
-
-	while (i < latex1.size() && latex1[i] == ' ')i++;
-	while (j < latex2.size() && latex2[j] == ' ')j++;
-
-	return i == latex1.size() && j == latex2.size();
-}
-
-bool checkLatexNew(std::string &latex1, std::string &latex2)
 {
 	std::string s1, s2;
 	for (size_t i = 0; i < latex1.size(); i++)
@@ -176,6 +155,22 @@ int parseCmdArgs(int argc, char** argv)
 				forTrain = false;
 			i++;
 		}
+		else if (std::string(argv[i]) == "-savegraph")
+		{
+			if (std::string(argv[i + 1]) == "yes")
+				saveGraph = true;
+			else if (std::string(argv[i + 1]) == "no")
+				saveGraph = false;
+			i++;
+		}
+		else if (std::string(argv[i]) == "-showgraph")
+		{
+			if (std::string(argv[i + 1]) == "yes")
+				showGraph = true;
+			else if (std::string(argv[i + 1]) == "no")
+				showGraph = false;
+			i++;
+		}
 		else
 		{
 			return 0;
@@ -184,6 +179,7 @@ int parseCmdArgs(int argc, char** argv)
 
 	return 1;
 }
+
 
 int main(int argc, char *argv[])
 {
@@ -254,7 +250,7 @@ int main(int argc, char *argv[])
 			}
 			else
 			{
-				if (checkLatexNew(latexResult, gtLatex))
+				if (checkLatex(latexResult, gtLatex))
 				{
 					vTrueNames.push_back(sampleFileName);
 					vTrueLatexs.push_back(latexResult);
@@ -266,20 +262,36 @@ int main(int argc, char *argv[])
 						std::shared_ptr<RelationSet> pRelSet = meparser.getRelationSet();
 						if (pRelSet.use_count() != 0)
 						{
-							int keyValue = pRelSet->ShowInImage(sample->getRGBImg(), pureFileName);
-							switch (keyValue)
+							if (showGraph || saveGraph)
 							{
-							case 's':
-								sfs << sampleFileName << std::endl;
-								HL_GENERAL_LOG(sampleFileName << " is save to file " << specialFileList);
-								break;
-							case 27:
-								stop = true;
-								break;
-							default:
-								break;
+								cv::Mat graphImg;
+								pRelSet->DrawInImage(sample->getRGBImg(), graphImg);
+								if (showGraph)
+								{
+									cv::imshow(pureFileName, graphImg);
+									int keyValue = cv::waitKey(0);
+									switch (keyValue)
+									{
+									case 's':
+										sfs << sampleFileName << std::endl;
+										HL_GENERAL_LOG(sampleFileName << " is save to file " << specialFileList);
+										break;
+									case 27:
+										stop = true;
+										break;
+									default:
+										break;
+									}
+									cv::destroyWindow(pureFileName);
+								}
+								
+								if (saveGraph)
+								{
+									std::string graphPath = imgPath;
+									graphPath.replace(graphPath.size() - 4, 4, "_graph.png");
+									cv::imwrite(graphPath, graphImg);
+								}
 							}
-							cv::destroyWindow(pureFileName);
 						}
 					}
 				}

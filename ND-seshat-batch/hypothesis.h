@@ -82,6 +82,11 @@ struct Hypothesis {
 		hleft = H->hleft;
 		hright = H->hright;
 
+		hTop = H->hTop;
+		hBottom = H->hBottom;
+		hRight = H->hRight;
+		hLeft = H->hLeft;
+
 		lcen = H->lcen;
 		rcen = H->rcen;
 		lineBottom = H->lineBottom;

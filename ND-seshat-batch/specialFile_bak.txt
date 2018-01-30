@@ -1,3 +1,5 @@
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\00002125.txt
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\00002070.txt
 D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\00000023.txt
 D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\00000034.txt
 D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\00000072.txt

@@ -11,4 +11,6 @@
 
 ..\x64\Release\ND-seshat-batch.exe -showSample no -save yes -withGT yes -batch_file D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\filename.txt
 ..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -withGT yes -batch_file D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\filename.txt
-..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -withGT yes -batch_file specialFile_bak.txt
+..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -showgraph yes -savegraph no -withGT yes -batch_file specialFile_bak.txt
+
+..\x64\Release\ND-seshat-batch.exe -showSample no -save no -fortrain yes -showgraph no -savegraph yes -withGT yes -batch_file D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet\filename.txt

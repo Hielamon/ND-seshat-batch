@@ -464,7 +464,7 @@ PBIN
 1.00000000 Sub TermSub Greek LetterMin "{$1}_{$2}" A
 1.00000000 Sub TermSub Greek LetterCap "{$1}_{$2}" A
 1.00000000 Sub TermSub Greek Greek "{$1}_{$2}" A
-1.00000000 Mrt Mroot Sqrt Sym "\sqrt[$2]" B
+1.00000000 Mrt Mroot Sqrt Sym "\sqrt[$2]" A
 1.00000000 Ins Term Sqrt Term "$1{$2}" B
 1.00000000 Ins Term Sqrt TermSSE "$1{$2}" B
 1.00000000 Ins Term Sqrt TermSub "$1{$2}" B
@@ -773,4 +773,3 @@ PBIN
 1.50000000 V OpBin Dot hl_dot "\div" B
 1.50000000 V hl_dot hline Dot "-." A
 1.50000000 V Facto Bar Dot "!" C
-
