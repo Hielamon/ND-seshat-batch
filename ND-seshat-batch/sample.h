@@ -26,6 +26,25 @@ inline int computeRectArea(cv::Rect r)
 	return (r.width > 0 && r.height > 0) ? r.width * r.height : std::max(r.width, r.height);
 }
 
+bool getLatexListMap(const std::string &filename, std::map<std::string, std::string> &latexListMap)
+{
+	std::fstream fs(filename, std::ios::in);
+	if (!fs.is_open())
+		HL_CERR_RETURN_FALSE("Failed to open the file " << filename);
+
+	std::string line;
+	while (std::getline(fs, line) && !line.empty())
+	{
+		size_t spos = line.find(" ");
+		std::string latexID, latex;
+		latexID.assign(line.begin(), line.begin() + spos);
+		latex.assign(line.begin() + spos + 1, line.end());
+		latexListMap[latexID] = latex;
+	}
+
+	return true;
+}
+
 //The Class include the Handwritten formula image
 //and the symbol recognition result
 class Sample
@@ -36,7 +55,8 @@ public:
 
 	//Load the Sample information from the annotation file of VOC 2007
 	bool LoadFromVOC2007XML(const std::string &xmlName, const std::string &imgPath,
-							std::string &gtLatexID, const std::string &charMapName = "VOC2007/charmap_.txt")
+							std::string &gtLatex, const std::string &charMapName = "VOC2007/charmap_.txt",
+							const std::string &latexListMapFName = "VOC2007/latexListMap.txt")
 	{
 		if (!vSegUnits.empty()) vSegUnits.clear();
 
@@ -56,6 +76,9 @@ public:
 			mCharMap.push_back(std::pair<std::string, int>(charName, mapID));
 		}
 		fs.close();
+
+		std::map<std::string, std::string> latexListMap;
+		getLatexListMap(latexListMapFName, latexListMap);
 
 		boost::property_tree::ptree pt, annotation;
 		boost::property_tree::read_xml(xmlName, pt);
@@ -111,8 +134,9 @@ public:
 				vSegUnits.push_back(seg);
 			}
 		}
-
-		gtLatexID = latexIDStr;
+		if (latexListMap.find(latexIDStr) == latexListMap.end())
+			return false;
+		gtLatex = latexListMap.find(latexIDStr)->second;
 		return true;
 	}
 
@@ -177,6 +201,7 @@ public:
 			fs >> x >> y >> s >> t;
 
 			vSegUnits[i].ROI = cv::Rect(x, y, s - x, t - y);
+			setStdVirtualPos(vSegUnits[i]);
 		}
 
 		fs.close();

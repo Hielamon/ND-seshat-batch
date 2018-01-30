@@ -1,0 +1,370 @@
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000030.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000031.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000032.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000033.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000034.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000035.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000036.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000037.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000038.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000039.txt ------>{\log}_{\theta} 62 = 53------GT>{ \\log } _ { \\theta } 6 2 = 5 3
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000100.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000101.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000102.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000103.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000104.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000105.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000106.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000107.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000108.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000109.txt ------>{\log}_{269} 5706 = 76------GT>{ \\log } _ { 2 6 9 } 5 7 0 6 = 7 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000170.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000171.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000172.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000173.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000174.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000175.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000176.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000177.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000178.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000179.txt ------>{\log}_{p} \frac{S}{S} = {\log}_{t} E - {\log}_{b} B------GT>{ \\log } _ { p } \\frac { S } { S } = { \\log } _ { t } E - { \\log } _ { b } B
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000380.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000381.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000382.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000383.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000384.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000385.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000386.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000387.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000388.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000389.txt ------>{\log}_{a} N = b------GT>{ \\log } _ { a } N = b
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000580.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000581.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000582.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000583.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000584.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000585.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000586.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000587.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000588.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00000589.txt ------>{\log}_{q} L = v------GT>{ \\log } _ { q } L = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005170.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005171.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005172.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005173.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005174.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005175.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005176.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005177.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005178.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005179.txt ------>y ( v ) = p ( e - {n}_{6} ) ( w - {s}_{9} )------GT>y ( v ) = p ( e - { n } _ { 6 } ) ( w - { s } _ { 9 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005980.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005981.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005982.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005983.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005984.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005985.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005986.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005987.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005988.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00005989.txt ------>{( s + w )}^{7} = {n}^{8} + 3z k + {g}^{3}------GT>{ ( s + w ) } ^ { 7 } = { n } ^ { 8 } + 3 z k + { g } ^ { 3 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006390.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006391.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006392.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006393.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006394.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006395.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006396.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006397.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006398.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00006399.txt ------>{\log}_{\beta} 23 = 36------GT>{ \\log } _ { \\beta } 2 3 = 3 6
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014940.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014941.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014942.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014943.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014944.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014945.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014946.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014947.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014948.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00014949.txt ------>q = \frac{\sqrt{{G}^{2} + {F}^{2} - 4 E}}{R}------GT>q = \\frac { \\sqrt { { G } ^ { 2 } + { F } ^ { 2 } - 4 E } } { R }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015180.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015181.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015182.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015183.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015184.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015185.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015186.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015187.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015188.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015189.txt ------>{\log}_{b} f = 8------GT>{ \\log } _ { b } f = 8
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015400.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015401.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015402.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015403.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015404.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015405.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015406.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015407.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015408.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00015409.txt ------>{\log}_{d} C = p------GT>{ \\log } _ { d } C = p
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016050.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016051.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016052.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016053.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016054.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016055.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016056.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016057.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016058.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016059.txt ------>{\log}_{s} \frac{T}{H} = {\log}_{s} T - {\log}_{s} H------GT>{ \\log } _ { s } \\frac { T } { H } = { \\log } _ { s } T - { \\log } _ { s } H
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016560.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016561.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016562.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016563.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016564.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016565.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016566.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016567.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016568.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00016569.txt ------>\sqrt{{( {t}_{9} - {r}_{4} )}^{7} + {( {f}_{6} - {v}_{9} )}^{2}}------GT>\\sqrt { { ( { t } _ { 9 } - { r } _ { 4 } ) } ^ { 7 } + { ( { f } _ { 6 } - { v } _ { 9 } ) } ^ { 2 } }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017900.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017901.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017902.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017903.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017904.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017905.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017906.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017907.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017908.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00017909.txt ------>{\log}_{t} 4 = 1------GT>{ \\log } _ { t } 4 = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020820.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020821.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020822.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020823.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020824.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020825.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020826.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020827.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020828.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00020829.txt ------>82 \times 72 \times 27 = 272------GT>8 2 \\times 7 2 \\times 2 7 = 2 7 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021560.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021561.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021562.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021563.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021564.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021565.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021566.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021567.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021568.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00021569.txt ------>c - {y}_{9} = w ( z - {e}_{8} )------GT>c - { y } _ { 9 } = w ( z - { e } _ { 8 } )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022680.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022681.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022682.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022683.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022684.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022685.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022686.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022687.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022688.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00022689.txt ------>{\log}_{m} R = y------GT>{ \\log } _ { m } R = y
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024100.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024101.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024102.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024103.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024104.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024105.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024106.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024107.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024108.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00024109.txt ------>{\log}_{a} S = d------GT>{ \\log } _ { a } S = d
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026460.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026461.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026462.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026463.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026464.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026465.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026466.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026467.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026468.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026469.txt ------>{\log}_{y} y = 1------GT>{ \\log } _ { y } y = 1
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026790.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026791.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026792.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026793.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026794.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026795.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026796.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026797.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026798.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00026799.txt ------>{\log}_{i} T = z------GT>{ \\log } _ { i } T = z
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030810.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030811.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030812.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030813.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030814.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030815.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030816.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030817.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030818.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00030819.txt ------>{\log}_{\lambda} \pi = \theta------GT>{ \\log } _ { \\lambda } \\pi = \\theta
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031030.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031031.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031032.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031033.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031034.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031035.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031036.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031037.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031038.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031039.txt ------>{\log}_{r} B = v------GT>{ \\log } _ { r } B = v
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031160.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031161.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031162.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031163.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031164.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031165.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031166.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031167.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031168.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031169.txt ------>{\log}_{z} B = w------GT>{ \\log } _ { z } B = w
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031170.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031171.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031172.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031173.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031174.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031175.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031176.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031177.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031178.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00031179.txt ------>I = \frac{M + V}{4}------GT>I = \\frac { M + V } { 4 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032980.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032981.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032982.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032983.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032984.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032985.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032986.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032987.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032988.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00032989.txt ------>{\log}_{z} A = o------GT>{ \\log } _ { z } A = o
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033350.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033351.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033352.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033353.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033354.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033355.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033356.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033357.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033358.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00033359.txt ------>{\log}_{79} {89}^{98} = 82 {\log}_{77} 80------GT>{ \\log } _ { 7 9 } { 8 9 } ^ { 9 8 } = 8 2 { \\log } _ { 7 7 } 8 0
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034170.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034171.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034172.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034173.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034174.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034175.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034176.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034177.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034178.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034179.txt ------>{( i + a )}^{3} = {c}^{6} + 7 h s + {h}^{8}------GT>{ ( i + a ) } ^ { 3 } = { c } ^ { 6 } + 7 h s + { h } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034450.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034451.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034452.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034453.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034454.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034455.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034456.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034457.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034458.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00034459.txt ------>{( u + j )}^{6} = {n}^{3} + 5 j z + {q}^{8}------GT>{ ( u + j ) } ^ { 6 } = { n } ^ { 3 } + 5 j z + { q } ^ { 8 }
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035100.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035101.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035102.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035103.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035104.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035105.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035106.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035107.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035108.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00035109.txt ------>( u - {f}_{2} ) ( k - {q}_{3} ) + ( t - {h}_{3} ) ( b - {n}_{5} ) = 2------GT>( u - { f } _ { 2 } ) ( k - { q } _ { 3 } ) + ( t - { h } _ { 3 } ) ( b - { n } _ { 5 } ) = 2
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041530.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041531.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041532.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041533.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041534.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041535.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041536.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041537.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041538.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00041539.txt ------>{\log}_{l} B = i------GT>{ \\log } _ { l } B = i
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042610.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042611.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042612.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042613.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042614.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042615.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042616.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042617.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042618.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00042619.txt ------>{\log}_{t} P = e------GT>{ \\log } _ { t } P = e
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045760.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045761.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045762.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045763.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045764.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045765.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045766.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045767.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045768.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00045769.txt ------>f ( i ) = a {( i - j )}^{2} + k------GT>f ( i ) = a { ( i - j ) } ^ { 2 } + k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047910.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047911.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047912.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047913.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047914.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047915.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047916.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047917.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047918.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00047919.txt ------>x = {x}^{- 3} ( v )------GT>x = { x } ^ { - 3 } ( v )
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056260.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056261.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056262.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056263.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056264.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056265.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056266.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056267.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056268.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00056269.txt ------>{\log}_{s} ( F I ) = {\log}_{f} A + {\log}_{o} T------GT>{ \\log } _ { s } ( F I ) = { \\log } _ { f } A + { \\log } _ { o } T
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058670.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058671.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058672.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058673.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058674.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058675.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058676.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058677.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058678.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058679.txt ------>{\log}_{p} R = k------GT>{ \\log } _ { p } R = k
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058780.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058781.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058782.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058783.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058784.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058785.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058786.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058787.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058788.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058789.txt ------>{\log}_{w} {B}^{s} = h {\log}_{l} E------GT>{ \\log } _ { w } { B } ^ { s } = h { \\log } _ { l } E
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058840.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058841.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058842.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058843.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058844.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058845.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058846.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058847.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058848.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n
+D:\Funny-Works\Academic-Codes\HandWritten\Datasets\TidyDatasets\TidyDatasets\UniformTestSet101PAD\00058849.txt ------>{\log}_{m} H = n------GT>{ \\log } _ { m } H = n

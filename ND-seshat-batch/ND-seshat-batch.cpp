@@ -19,10 +19,12 @@ std::string batchFileList = "specialFile_bak.txt";
 std::string VOC2007CharMapFName = "VOC2007/charmap_.txt";
 //std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
 std::string specialFileList = "specialFile.txt";
+std::string resultDir = "Result";
 bool IsShowSample = !false;
 bool saveResult = true;
 bool withGT = true;
 bool symErrStop = false;
+int step = 10;
 
 bool forTrain = false;
 bool showGraph = true;
@@ -113,6 +115,11 @@ int parseCmdArgs(int argc, char** argv)
 		else if (std::string(argv[i]) == "-batch_file")
 		{
 			batchFileList = std::string(argv[i + 1]);
+			i++;
+		}
+		else if (std::string(argv[i]) == "-resultdir")
+		{
+			resultDir = std::string(argv[i + 1]);
 			i++;
 		}
 		else if (std::string(argv[i]) == "-withGT")
@@ -222,8 +229,12 @@ int main(int argc, char *argv[])
 
 	std::stringstream ioStr;
 	bool stop = false;
+	int miniStep = 0;
 	while (std::getline(fs, line) && !line.empty() && !stop)
 	{
+		miniStep++;
+		if ((miniStep = miniStep % step) != 0) continue;
+
 		std::cout << "\n\n" << sepLine << std::endl;
 		ioStr.clear();
 		ioStr.str("");
@@ -351,7 +362,6 @@ int main(int argc, char *argv[])
 	std::cout << "\n\n" << sepLine << std::endl;
 	std::cout << "Start to save the result" << std::endl;
 
-	std::string resultDir = "Result";
 	//Check and Create the folder
 	if (_access(resultDir.c_str(), 0) == -1)
 		_mkdir(resultDir.c_str());
