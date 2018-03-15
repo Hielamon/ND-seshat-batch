@@ -14,22 +14,27 @@
 #include "meParser.h"
 #include "relationSet.h"
 
-std::string batchFileList = "specialFile_bak.txt";
+std::string batchFileList = "VOC2007/Annotations/filename.txt";
+//std::string batchFileList = "specialFile_bak.txt";
 //std::string batchFileList = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/TidyDatasets/TidyDatasets/UniformTestSet/filename.txt";
 std::string VOC2007CharMapFName = "VOC2007/charmap_.txt";
+std::string VOC2007ImgPath = "VOC2007/JPEGImages/";
 //std::string VOC2007CharMapFName = "D:/Funny-Works/Academic-Codes/HandWritten/Datasets/VOC2007/charmap_.txt";
 std::string specialFileList = "specialFile.txt";
 std::string resultDir = "Result";
-bool IsShowSample = !false;
+bool IsShowSample = false;
 bool saveResult = true;
 bool withGT = true;
 bool symErrStop = false;
-int step = 10;
+int step = 1;
 
-bool forTrain = false;
-bool showGraph = true;
-bool saveGraph = true;
-std::string trainDir = "train";
+bool IsUniformFile = false;
+
+bool forRelationSet = true;
+bool showGraph = !true;
+bool saveGraph = false;
+bool saveRelationSet = true;
+std::string RelationSetDir = "RelationSet";
 
 inline bool getSymbolMap(const std::string &filename, std::map<std::string, int> &symbolMap)
 {
@@ -154,12 +159,20 @@ int parseCmdArgs(int argc, char** argv)
 				symErrStop = false;
 			i++;
 		}
-		else if (std::string(argv[i]) == "-fortrain")
+		else if (std::string(argv[i]) == "-uniform")
 		{
 			if (std::string(argv[i + 1]) == "yes")
-				forTrain = true;
+				IsUniformFile = true;
 			else if (std::string(argv[i + 1]) == "no")
-				forTrain = false;
+				IsUniformFile = false;
+			i++;
+		}
+		else if (std::string(argv[i]) == "-forRel")
+		{
+			if (std::string(argv[i + 1]) == "yes")
+				forRelationSet = true;
+			else if (std::string(argv[i + 1]) == "no")
+				forRelationSet = false;
 			i++;
 		}
 		else if (std::string(argv[i]) == "-savegraph")
@@ -213,11 +226,18 @@ int main(int argc, char *argv[])
 		HL_CERR("Failed to open the file " << batchFileList);
 
 	std::fstream sfs;
-	if (IsShowSample || forTrain)
+	if (IsShowSample || forRelationSet)
 	{
 		sfs.open(specialFileList, std::ios::out);
 		if (!sfs.is_open())
 			HL_CERR("Failed to open the file " << specialFileList);
+	}
+
+	if (saveRelationSet)
+	{
+		//Check and Create the folder
+		if (_access(RelationSetDir.c_str(), 0) == -1)
+			_mkdir(RelationSetDir.c_str());
 	}
 
 	std::string sampleFileName, line, gtLatex, imgPath;
@@ -241,7 +261,13 @@ int main(int argc, char *argv[])
 		ioStr << line;
 		ioStr >> sampleFileName;
 		std::cout << "Excute file : " << sampleFileName << std::endl;
-		if (sample->LoadFromUnifromFile(sampleFileName, gtLatex, imgPath, symbolMap, withGT))
+		bool loadSuccess = true;
+		if (IsUniformFile)
+			loadSuccess = sample->LoadFromUnifromFile(sampleFileName, gtLatex, imgPath, symbolMap, withGT);
+		else
+			loadSuccess = sample->LoadFromVOC2007XML(sampleFileName, VOC2007ImgPath, gtLatex, imgPath);
+
+		if (loadSuccess)
 		{
 			std::string latexResult = meparser.parse(sample);
 
@@ -268,9 +294,9 @@ int main(int argc, char *argv[])
 					vTrueGTLatexs.push_back(gtLatex);
 					std::cout << "True Sample" << std::endl;
 
-					if (forTrain)
+					if (forRelationSet)
 					{
-						std::shared_ptr<RelationSet> pRelSet = meparser.getRelationSet();
+						std::shared_ptr<RelationSet> pRelSet = meparser.getRelationSet(sample);
 						if (pRelSet.use_count() != 0)
 						{
 							if (showGraph || saveGraph)
@@ -302,6 +328,20 @@ int main(int argc, char *argv[])
 									graphPath.replace(graphPath.size() - 4, 4, "_graph.png");
 									cv::imwrite(graphPath, graphImg);
 								}
+							}
+
+							if (saveRelationSet)
+							{
+								std::string relName = "Relation_";
+								ioStr.clear();
+								ioStr.str("");
+								ioStr << RelationSetDir << "/" << relName << std::setw(8) << std::setfill('0') << vTrueNames.size() - 1 << ".txt";
+								pRelSet->SaveToFile(ioStr.str());
+
+								ioStr.clear();
+								ioStr.str("");
+								ioStr << RelationSetDir << "/" << relName << std::setw(8) << std::setfill('0') << vTrueNames.size() - 1 << ".jpg";
+								cv::imwrite(ioStr.str(), sample->getRGBImg());
 							}
 						}
 					}
@@ -349,7 +389,7 @@ int main(int argc, char *argv[])
 
 	fs.close();
 
-	if (IsShowSample || forTrain)
+	if (IsShowSample || forRelationSet)
 		sfs.close();
 
 	int nsErr = vSymErrorNames.size(), npErr = vParseErrorNames.size(), ntrue = vTrueNames.size();

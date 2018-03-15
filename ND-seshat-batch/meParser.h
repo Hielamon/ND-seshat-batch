@@ -194,7 +194,9 @@ inline void drawCellWithColor(cv::Mat &src, std::shared_ptr<CellCYK> &pCell, cv:
 	cv::rectangle(src, roi, color, 3);
 }
 
-inline void PrintRelationSet(std::shared_ptr<Hypothesis> &H, std::shared_ptr<RelationSet> &pRelSet) {
+inline void PrintRelationSet(std::shared_ptr<Hypothesis> &H, std::shared_ptr<RelationSet> &pRelSet,
+							 std::shared_ptr<Sample> &M)
+{
 	if (!H.use_count())
 		HL_CERR("The Null Pointer");
 
@@ -258,9 +260,12 @@ inline void PrintRelationSet(std::shared_ptr<Hypothesis> &H, std::shared_ptr<Rel
 		relUnit.relType = relType;
 		relUnit.ROI1 = cv::Rect(box1.x, box1.y, box1.s - box1.x, box1.t - box1.y);
 		relUnit.ROI2 = cv::Rect(box2.x, box2.y, box2.s - box2.x, box2.t - box2.y);
+		M->getSegPoints(relUnit.ROI1, relUnit.vPoint1);
+		M->getSegPoints(relUnit.ROI2, relUnit.vPoint2);
+
 		pRelSet->addRelation(relUnit);
-		PrintRelationSet(Hleft, pRelSet);
-		PrintRelationSet(Hright, pRelSet);
+		PrintRelationSet(Hleft, pRelSet, M);
+		PrintRelationSet(Hright, pRelSet, M);
 	}
 	else {
 		return;
@@ -334,7 +339,7 @@ public:
 		return latexStr;
 	}
 
-	std::shared_ptr<RelationSet> getRelationSet()
+	std::shared_ptr<RelationSet> getRelationSet(std::shared_ptr<Sample> &M)
 	{
 		if (tcyk.use_count() == 0) return nullptr;
 
@@ -350,7 +355,7 @@ public:
 		if (!mlh.use_count() || !mlc.use_count())
 			HL_CERR("\nNo hypothesis found!!");
 
-		PrintRelationSet(mlh, relSet);
+		PrintRelationSet(mlh, relSet, M);
 		return relSet;
 	}
 

@@ -8,11 +8,32 @@
 
 #include "symSet.h"
 
+namespace cv
+{
+	inline bool operator<(const cv::Rect &A, const cv::Rect &B)
+	{
+		if (A.x < B.x) return true;
+		if (A.x == B.x) {
+			if (A.y < B.y) return true;
+			if (A.y == B.y) {
+				if (A.width < B.width) return true;
+				if (A.width == B.width)
+					if (A.height < B.height) return true;
+			}
+		}
+		return false;
+	}
+}
+
 
 //The unit result of segmentation or symbol recognition procedure 
 struct SegUnit
 {
 	cv::Rect ROI;
+
+	//The stroke sequence point, if it exist in the input file
+	std::vector<cv::Point> vPoint;
+
 	//the standart virtual position
 	std::vector<double> vCen, vTop, vBottom;
 
@@ -38,7 +59,7 @@ bool getLatexListMap(const std::string &filename, std::map<std::string, std::str
 		size_t spos = line.find(" ");
 		std::string latexID, latex;
 		latexID.assign(line.begin(), line.begin() + spos);
-		latex.assign(line.begin() + spos + 1, line.end());
+		latex.assign(line.begin() + spos + 2, line.end() - 1);
 		latexListMap[latexID] = latex;
 	}
 
@@ -55,10 +76,11 @@ public:
 
 	//Load the Sample information from the annotation file of VOC 2007
 	bool LoadFromVOC2007XML(const std::string &xmlName, const std::string &imgPath,
-							std::string &gtLatex, const std::string &charMapName = "VOC2007/charmap_.txt",
+							std::string &gtLatex, std::string &imgFullPath, const std::string &charMapName = "VOC2007/charmap_.txt",
 							const std::string &latexListMapFName = "VOC2007/latexListMap.txt")
 	{
 		if (!vSegUnits.empty()) vSegUnits.clear();
+		if (!vROIIdx.empty()) vROIIdx.clear();
 
 		std::fstream fs(charMapName, std::ios::in);
 		if (!fs.is_open())
@@ -92,7 +114,8 @@ public:
 			if (iter->first == "filename")
 			{
 				imgName = iter->second.data();
-				Img = cv::imread(imgPath + imgName, cv::IMREAD_GRAYSCALE);
+				imgFullPath = imgPath + imgName;
+				Img = cv::imread(imgFullPath, cv::IMREAD_GRAYSCALE);
 				cv::threshold(Img, Img, 100, 255, cv::ThresholdTypes::THRESH_BINARY);
 			}
 			else if (iter->first == "latex")
@@ -130,13 +153,52 @@ public:
 				int s = iter->second.get<int>("bndbox.xmax");
 				int t = iter->second.get<int>("bndbox.ymax");
 				seg.ROI = cv::Rect(x, y, s - x, t - y);
+				
+				boost::optional<std::string> vpts_op = iter->second.get_optional<std::string>("vpts");
+				//std::string vpts = iter->second.get<std::string>("vpts");
+				if (vpts_op.is_initialized())
+				{
+					std::string vpts = vpts_op.get();
+					std::stringstream ioStr;
+					ioStr << vpts;
+					std::vector<int> vValue;
+					int intValue;
+					while (ioStr >> intValue)
+					{
+						if(intValue != -10000)
+							vValue.push_back(intValue);
+					}
+
+					if (vValue.size() % 2 == 0)
+					{
+						int pointNum = vValue.size() / 2;
+						seg.vPoint.resize(pointNum);
+						for (size_t i = 0, j = 0; i < pointNum; i++, j += 2)
+						{
+							seg.vPoint[i].x = vValue[j];
+							seg.vPoint[i].y = vValue[j + 1];
+						}
+					}
+					else
+						HL_CERR_RETURN_FALSE("The number of vpts values is not even, it's invalid");
+				}
+
 				setStdVirtualPos(seg);
+
+				if(vROIIdx.find(seg.ROI) == vROIIdx.end())
+					vROIIdx[seg.ROI] = vSegUnits.size();
+				else
+					HL_CERR_RETURN_FALSE("There are two segment holding the same ROI value");
+
 				vSegUnits.push_back(seg);
+				
 			}
 		}
 		if (latexListMap.find(latexIDStr) == latexListMap.end())
 			return false;
 		gtLatex = latexListMap.find(latexIDStr)->second;
+
+		//fillPointsByImg();
 		return true;
 	}
 
@@ -650,6 +712,42 @@ public:
 		return dmin;
 	}
 
+	bool getSegPoints(cv::Rect &ROI, std::vector<cv::Point> &vPoint)
+	{
+		auto iter = vROIIdx.end();
+		if ((iter = vROIIdx.find(ROI)) == vROIIdx.end())
+			HL_CERR_RETURN_FALSE("It's strange that the ROI doesn't exist in sample");
+
+		if (iter->second < 0 || iter->second >= vSegUnits.size())
+			HL_CERR_RETURN_FALSE("It's strange that the ROI idx(" << iter->second << ") is invalid");
+
+		vPoint = vSegUnits[iter->second].vPoint;
+		return true;
+	}
+
+	void fillPointsByImg()
+	{
+		if (Img.empty())
+			HL_CERR("The Img is empty");
+
+		for (size_t i = 0; i < vSegUnits.size(); i++)
+		{
+			SegUnit &seg = vSegUnits[i];
+			cv::Mat segImg = Img(seg.ROI);
+			for (size_t i = 0; i < seg.ROI.height; i++)
+			{
+				uchar *rowImg = reinterpret_cast<uchar *>(segImg.ptr(i));
+				for (size_t j = 0; j < seg.ROI.width; j++)
+				{
+					if (rowImg[j])
+					{
+						seg.vPoint.push_back(cv::Point(j + seg.ROI.x, i + seg.ROI.y));
+					}
+				}
+			}
+		}
+	}
+
 	//Normalized reference symbol size
 	int RX, RY;
 
@@ -660,6 +758,7 @@ public:
 private:
 	cv::Mat Img;
 	std::vector<SegUnit> vSegUnits;
+	std::map<cv::Rect, int> vROIIdx;
 	std::vector<std::vector<float>> vvSegDist;
 	int W, H;
 

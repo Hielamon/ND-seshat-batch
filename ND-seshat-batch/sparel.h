@@ -339,7 +339,7 @@ public:
 		std::cout << "bottoma->rcen = " << bottoma->rcen << std::endl;
 #endif // LOG_COMPUTE
 
-		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));;
+		double cenScore = 1 / (1 + exp((-cenRatio + 0.2) * 15));
 
 		score = cenScore;
 
@@ -383,7 +383,7 @@ public:
 		std::cout << "topa->rcen = " << topa->rcen << std::endl;
 #endif // LOG_COMPUTE
 
-		double cenScore = 1 / (1 + exp((-cenRatio + 0.1) * 15));
+		double cenScore = 1 / (1 + exp((-cenRatio + 0.2) * 15));
 
 		score = cenScore;
 
